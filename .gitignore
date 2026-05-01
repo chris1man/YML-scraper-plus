@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# Generated files
+feed.yml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+*.html
