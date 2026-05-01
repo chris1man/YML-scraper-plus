@@ -2,6 +2,20 @@
 
 Скрипт для парсинга товаров и создания YML-фида для Яндекс.Маркета.
 
+## 🚀 Быстрый старт
+
+### GitHub Actions (рекомендуется)
+1. Добавьте `CATEGORY_URL` в Repository secrets
+2. GitHub Actions автоматически запустится и опубликует YML на Pages
+
+### Локальный запуск
+```bash
+pip install -r requirements.txt
+python scraper.py  # С Playwright (полная версия)
+# или
+python scraper_requests_only.py  # Только requests (быстрее)
+```
+
 ## Быстрый старт
 
 ### 1. Установка зависимостей
