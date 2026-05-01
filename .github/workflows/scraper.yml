@@ -32,6 +32,8 @@ jobs:
 
       - name: Запуск скрапера
         run: python scraper.py
+        env:
+          CATEGORY_URL: ${{ secrets.CATEGORY_URL }}
 
       - name: Проверка наличия feed.yml
         run: |

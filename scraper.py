@@ -525,7 +525,11 @@ def main():
     logger.info("Шаг 1: Получение списка товаров с категориями...")
 
     if not CATEGORY_URL:
-        logger.error("CATEGORY_URL не задан в .env файле")
+        logger.error("CATEGORY_URL не задан!")
+        logger.error("Укажите CATEGORY_URL в:")
+        logger.error("  - .env файле (для локального запуска)")
+        logger.error("  - GitHub Actions secrets (для автоматического запуска)")
+        logger.error("Пример: CATEGORY_URL=https://example.com/category/")
         return
 
     categories = get_products_with_categories(CATEGORY_URL)
