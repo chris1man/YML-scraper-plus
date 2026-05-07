@@ -8,5 +8,3 @@ feed.yml
 __pycache__/
 *.pyc
 venv/
-
-*.html
