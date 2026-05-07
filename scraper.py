@@ -630,9 +630,10 @@ def build_yml_string(products_by_category: Dict[str, List[Dict]]) -> str:
     return pretty_xml
 
 
-def main():
+def run_scraper() -> str:
     """
-    Основная функция выполнения скрипта
+    Запускает скрапер и возвращает YML контент строкой.
+    Используется в Vercel API.
     """
     logger.info("=== Запуск скрапера ===")
 
@@ -641,16 +642,12 @@ def main():
 
     if not CATEGORY_URL:
         logger.error("CATEGORY_URL не задан!")
-        logger.error("Укажите CATEGORY_URL в:")
-        logger.error("  - .env файле (для локального запуска)")
-        logger.error("  - GitHub Actions secrets (для автоматического запуска)")
-        logger.error("Пример: CATEGORY_URL=https://example.com/category/")
-        return
+        raise ValueError("CATEGORY_URL не задан! Укажите его в переменных окружения Vercel.")
 
     categories = get_products_with_categories(CATEGORY_URL)
 
     if not categories:
-        logger.warning("Товары не найдены, создаём тестовый YML для проверки workflow")
+        logger.warning("Товары не найдены, создаём тестовый YML")
         categories = {
             "Тестовая категория": [
                 {"url": "https://example.com/test1", "title": "Тестовый товар 1", "price": "100", "description": "Тестовое описание", "available": "true"},
@@ -686,16 +683,28 @@ def main():
         if category_products:
             products_by_category[cat_name] = category_products
 
-    # Шаг 3: Формируем YML файл
+    # Шаг 3: Формируем YML строку
     logger.info("Шаг 3: Создание YML файла...")
     if products_by_category:
-        build_yml(products_by_category)
+        yml_content = build_yml_string(products_by_category)
         total_parsed = sum(len(v) for v in products_by_category.values())
         logger.info(f"Готово! Спарсено товаров: {total_parsed} в {len(products_by_category)} категориях")
+        logger.info("=== Скрапер завершил работу ===")
+        return yml_content
     else:
         logger.warning("Нет данных для создания YML файла")
+        logger.info("=== Скрапер завершил работу ===")
+        return '<?xml version="1.0" encoding="utf-8"?><yml_catalog></yml_catalog>'
 
-    logger.info("=== Скрапер завершил работу ===")
+
+def main():
+    """
+    Основная функция выполнения скрипта (для локального запуска)
+    """
+    yml_content = run_scraper()
+    with open("feed.yml", "w", encoding="utf-8-sig") as f:
+        f.write(yml_content)
+    logger.info("Файл feed.yml сохранен локально")
 
 
 if __name__ == "__main__":

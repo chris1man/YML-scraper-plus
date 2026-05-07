@@ -2,17 +2,26 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/scraper.py",
+      "src": "api/index.py",
       "use": "@vercel/python",
       "config": {
-        "runtime": "python3"
+        "runtime": "python3.9",
+        "maxLambdaSize": "50mb"
       }
     }
   ],
   "routes": [
     {
-      "src": "/api/scraper",
-      "dest": "/api/scraper.py"
+      "src": "/feed.yml",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.py"
     }
   ]
 }
