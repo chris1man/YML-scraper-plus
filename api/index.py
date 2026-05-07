@@ -13,6 +13,18 @@ app = Flask(__name__)
 # In-memory cache for feed.yml
 _cached_yml = None
 
+# Pre-load feed on startup
+def _preload_feed():
+    global _cached_yml
+    try:
+        print("Pre-loading feed...")
+        _cached_yml = run_scraper()
+        print(f"Feed pre-loaded, {len(_cached_yml)} bytes")
+    except Exception as e:
+        print(f"Error pre-loading feed: {e}")
+
+_preload_feed()
+
 HTML_PAGE = r"""
 <!DOCTYPE html>
 <html lang="ru">
