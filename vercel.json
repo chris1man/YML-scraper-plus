@@ -2,6 +2,14 @@
   "version": 2,
   "builds": [
     {
+      "src": "build.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9",
+        "maxLambdaSize": "50mb"
+      }
+    },
+    {
       "src": "api/index.py",
       "use": "@vercel/python",
       "config": {
@@ -22,6 +30,12 @@
     {
       "src": "/(.*)",
       "dest": "/api/index.py"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/run",
+      "schedule": "0 3 * * *"
     }
   ]
 }

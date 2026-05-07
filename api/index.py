@@ -13,7 +13,7 @@ app = Flask(__name__)
 # In-memory cache for feed.yml
 _cached_yml = None
 
-HTML_PAGE = """
+HTML_PAGE = r"""
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -136,21 +136,21 @@ HTML_PAGE = """
         <div class="card">
             <div class="stats">
                 <div class="stat">
-                    <div class="stat-value" id="offerCount">—</div>
+                    <div class="stat-value" id="offerCount">...</div>
                     <div class="stat-label">Товаров в фиде</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value" id="catCount">—</div>
+                    <div class="stat-value" id="catCount">...</div>
                     <div class="stat-label">Категорий</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value" id="lastUpdate">—</div>
+                    <div class="stat-value" id="lastUpdate">...</div>
                     <div class="stat-label">Последнее обновление</div>
                 </div>
             </div>
 
             <div class="actions">
-                <button class="btn" id="updateBtn" onclick="runScraper()">
+                <button class="btn" id="updateBtn">
                     <span>Обновить фид</span>
                 </button>
                 <a class="btn btn-secondary" href="/feed.yml" target="_blank">Открыть feed.yml</a>
@@ -166,12 +166,12 @@ HTML_PAGE = """
     </div>
 
     <script>
-        async function runScraper() {
-            const btn = document.getElementById('updateBtn');
-            const status = document.getElementById('status');
-            const previewCard = document.getElementById('previewCard');
-            const preview = document.getElementById('preview');
+        const btn = document.getElementById('updateBtn');
+        const status = document.getElementById('status');
+        const previewCard = document.getElementById('previewCard');
+        const preview = document.getElementById('preview');
 
+        btn.addEventListener('click', async () => {
             btn.disabled = true;
             btn.innerHTML = '<div class="spinner"></div><span>Обновление...</span>';
             status.className = 'status info';
@@ -199,7 +199,7 @@ HTML_PAGE = """
 
             btn.disabled = false;
             btn.innerHTML = '<span>Обновить фид</span>';
-        }
+        });
 
         function updateStats(xml) {
             const offers = (xml.match(/<offer /g) || []).length;
@@ -208,6 +208,16 @@ HTML_PAGE = """
             document.getElementById('catCount').textContent = cats;
             document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('ru-RU', {hour:'2-digit', minute:'2-digit'});
         }
+
+        // Load stats on page load
+        fetch('/feed.yml')
+            .then(r => r.text())
+            .then(xml => {
+                if (xml && xml.length > 50) {
+                    updateStats(xml);
+                }
+            })
+            .catch(() => {});
     </script>
 </body>
 </html>
