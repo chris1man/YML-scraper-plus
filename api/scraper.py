@@ -15,15 +15,20 @@ def handler():
     Vercel Flask app for running the scraper
     """
     try:
+        print("Starting scraper...")
         # Run the scraper and get YML content
         yml_content = run_scraper()
-
+        print(f"Scraper completed, YML length: {len(yml_content)}")
+        
         return Response(
             yml_content,
             mimetype='application/xml; charset=utf-8',
             headers={'Content-Disposition': 'attachment; filename="feed.yml"'}
         )
     except Exception as e:
+        print(f"Error: {str(e)}")
+        import traceback
+        print(traceback.format_exc())
         return Response(
             f'Error running scraper: {str(e)}',
             status=500,
