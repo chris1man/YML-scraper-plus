@@ -94,8 +94,8 @@ jobs:
         with:
           name: yml-feed
 
-       - name: Подготовка файлов для Pages
-         run: |
+      - name: Подготовка файлов для Pages
+        run: |
            mkdir -p ./public
            if [ -f "feed.yml" ]; then
              cp feed.yml ./public/

@@ -6,7 +6,7 @@ sys.path.append('.')
 
 from scraper import run_scraper
 
-def handler(event, context):
+def handler(request):
     """
     Vercel serverless function handler for running the scraper
     """
