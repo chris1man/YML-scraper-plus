@@ -544,6 +544,92 @@ def build_yml(products_by_category: Dict[str, List[Dict]], output_file: str = "f
     logger.info(f"YML файл сохранен: {output_file}")
 
 
+def build_yml_string(products_by_category: Dict[str, List[Dict]]) -> str:
+    """
+    Формирует YML строку в формате Яндекс.Маркета.
+    products_by_category: {имя_категории: [список_товаров]}
+    """
+    logger.info("Формирование YML строки...")
+
+    # Создаем корневой элемент
+    yml_catalog = ET.Element("yml_catalog")
+    yml_catalog.set("date", time.strftime("%Y-%m-%d %H:%M"))
+
+    # Создаем элемент shop
+    shop = ET.SubElement(yml_catalog, "shop")
+
+    # Добавляем информацию о магазине
+    ET.SubElement(shop, "name").text = SHOP_NAME
+    ET.SubElement(shop, "company").text = SHOP_COMPANY
+    ET.SubElement(shop, "url").text = SHOP_URL
+
+    # Добавляем валюты
+    currencies = ET.SubElement(shop, "currencies")
+    currency = ET.SubElement(currencies, "currency")
+    currency.set("id", "RUR")
+    currency.set("rate", "1")
+
+    # Добавляем категории
+    categories_elem = ET.SubElement(shop, "categories")
+    cat_id_map = {}  # имя_категории → числовой ID
+    cat_id_counter = 1
+    for cat_name in products_by_category.keys():
+        cat = ET.SubElement(categories_elem, "category")
+        cat.set("id", str(cat_id_counter))
+        decoded_cat_name = html.unescape(cat_name) if cat_name else "Товары"
+        cat.text = decoded_cat_name
+        cat_id_map[cat_name] = cat_id_counter
+        cat_id_counter += 1
+
+    # Добавляем товары (offers)
+    offers = ET.SubElement(shop, "offers")
+    offer_id = 1
+
+    for cat_name, products in products_by_category.items():
+        for product in products:
+            if not product:
+                continue
+
+            offer = ET.SubElement(offers, "offer")
+            offer.set("id", str(offer_id))
+            offer.set("available", product.get("available", "true"))
+
+            # Название товара
+            ET.SubElement(offer, "name").text = html.unescape(product["title"])
+
+            # Цена
+            if product.get("price"):
+                ET.SubElement(offer, "price").text = product["price"]
+
+            # Ссылка на товар
+            ET.SubElement(offer, "url").text = product["url"]
+
+            # Категория
+            ET.SubElement(offer, "categoryId").text = str(cat_id_map[cat_name])
+
+            # Описание
+            if product.get("description"):
+                ET.SubElement(offer, "description").text = html.unescape(product["description"])
+
+            # Артикул
+            if product.get("article"):
+                ET.SubElement(offer, "vendorCode").text = product["article"]
+
+            # Изображения
+            if product.get("images"):
+                for img_url in product["images"]:
+                    ET.SubElement(offer, "picture").text = img_url
+
+            offer_id += 1
+
+    # Преобразуем в строку с красивым форматированием
+    xml_str = ET.tostring(yml_catalog, encoding='unicode')
+    dom = minidom.parseString(xml_str)
+    pretty_xml = dom.toprettyxml(indent="  ", encoding='utf-8').decode('utf-8')
+
+    return pretty_xml
+
+
 def main():
     """
     Основная функция выполнения скрипта

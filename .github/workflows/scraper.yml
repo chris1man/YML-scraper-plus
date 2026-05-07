@@ -12,6 +12,8 @@ on:
     # Запуск каждый день в 00:00 UTC
     - cron: '0 0 * * *'
   workflow_dispatch:  # Возможность ручного запуска
+  repository_dispatch:
+    types: [scraper-trigger]
 
 jobs:
   scrape:
@@ -92,17 +94,25 @@ jobs:
         with:
           name: yml-feed
 
-      - name: Подготовка файлов для Pages
-        run: |
-          mkdir -p ./public
-          if [ -f "feed.yml" ]; then
-            cp feed.yml ./public/
-            echo "feed.yml успешно скопирован в public/"
-            ls -la feed.yml
-          else
-            echo "Создание пустого feed.yml"
-            echo '<?xml version="1.0" encoding="utf-8"?><yml_catalog></yml_catalog>' > ./public/feed.yml
-          fi
+       - name: Подготовка файлов для Pages
+         run: |
+           mkdir -p ./public
+           if [ -f "feed.yml" ]; then
+             cp feed.yml ./public/
+             echo "feed.yml успешно скопирован в public/"
+             ls -la feed.yml
+           else
+             echo "Создание пустого feed.yml"
+             echo '<?xml version="1.0" encoding="utf-8"?><yml_catalog></yml_catalog>' > ./public/feed.yml
+           fi
+           if [ -f "scraper.html" ]; then
+             cp scraper.html ./public/
+             echo "scraper.html скопирован в public/"
+           fi
+           if [ -f "index.html" ]; then
+             cp index.html ./public/
+             echo "index.html скопирован в public/"
+           fi
 
       - name: Загрузка артефакта
         uses: actions/upload-pages-artifact@v3
