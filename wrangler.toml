@@ -5,11 +5,7 @@ name = "yml-scraper"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
-# Переменные окружения — задайте реальные значения при деплое
-# Можно через wrangler: wrangler secret put GITHUB_TOKEN
-# Или через Cloudflare Dashboard → Workers → Settings → Variables
-#
-# Required secrets:
-#   GITHUB_TOKEN — Personal Access Token с правами repo и workflow
-#   GITHUB_OWNER — ваш логин на GitHub
-#   GITHUB_REPO  — имя репозитория (например, YML-scraper-plus)
+# Переменная окружения — задайте при деплое:
+#   wrangler secret put FEED_URL
+# Значение: полный URL к сырому feed.yml в репозитории
+#   https://raw.githubusercontent.com/OWNER/REPO/main/feed.yml
