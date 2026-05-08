@@ -385,6 +385,11 @@ def parse_product(url: str) -> Optional[Dict]:
         price = price.replace('\xa0', '').replace(' ', '')
         price = ''.join(c for c in price if c.isdigit() or c == '.')
 
+        # Проверяем наличие цены
+        if not price:
+            logger.warning(f"Цена не найдена для товара {url}, пропуск")
+            return None
+
         # Извлекаем описание
         desc_elem = soup.select_one(SELECTORS["description"])
         description = ""
@@ -544,6 +549,79 @@ def build_yml(products_by_category: Dict[str, List[Dict]], output_file: str = "f
     logger.info(f"YML файл сохранен: {output_file}")
 
 
+def generate_index_html(output_file: str = "index.html"):
+    """
+    Генерирует index.html для отображения статистики YML фида
+    """
+    html_content = """<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YML Scraper Stats</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        .stats { display: flex; justify-content: space-around; margin: 20px 0; }
+        .stat { text-align: center; }
+        .stat h2 { margin: 0; font-size: 2em; color: #007bff; }
+        .stat p { margin: 5px 0; color: #666; }
+        .loading { text-align: center; color: #999; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YML Scraper Dashboard</h1>
+        <div id="stats" class="loading">Загрузка данных...</div>
+    </div>
+
+    <script>
+        async function loadStats() {
+            try {
+                const response = await fetch('feed.yml');
+                if (!response.ok) throw new Error('Не удалось загрузить feed.yml');
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+
+                const ymlCatalog = xmlDoc.querySelector('yml_catalog');
+                const date = ymlCatalog ? ymlCatalog.getAttribute('date') : 'Неизвестно';
+                const categories = xmlDoc.querySelectorAll('category').length;
+                const offers = xmlDoc.querySelectorAll('offer').length;
+
+                document.getElementById('stats').innerHTML = `
+                    <div class="stats">
+                        <div class="stat">
+                            <h2>${offers}</h2>
+                            <p>Товаров</p>
+                        </div>
+                        <div class="stat">
+                            <h2>${categories}</h2>
+                            <p>Категорий</p>
+                        </div>
+                        <div class="stat">
+                            <h2>${date}</h2>
+                            <p>Последнее обновление</p>
+                        </div>
+                    </div>
+                `;
+            } catch (error) {
+                document.getElementById('stats').innerHTML = '<p class="error">Ошибка загрузки данных: ' + error.message + '</p>';
+            }
+        }
+
+        loadStats();
+    </script>
+</body>
+</html>"""
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    logger.info(f"HTML страница сохранена: {output_file}")
+
+
 def main():
     """
     Основная функция выполнения скрипта
@@ -606,8 +684,14 @@ def main():
         build_yml(products_by_category)
         total_parsed = sum(len(v) for v in products_by_category.values())
         logger.info(f"Готово! Спарсено товаров: {total_parsed} в {len(products_by_category)} категориях")
+
+        # Шаг 4: Генерируем HTML страницу
+        logger.info("Шаг 4: Создание HTML страницы...")
+        generate_index_html()
     else:
         logger.warning("Нет данных для создания YML файла")
+        # Создаём базовую HTML страницу с сообщением об ошибке
+        generate_index_html()
 
     logger.info("=== Скрапер завершил работу ===")
 

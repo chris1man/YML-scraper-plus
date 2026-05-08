@@ -2,15 +2,15 @@ name: Scraper YML Feed
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, github-pages ]
     paths:
       - 'scraper.py'
       - 'config.py'
       - '.env'
       - 'requirements.txt'
   schedule:
-    # Запуск каждый день в 00:00 UTC
-    - cron: '0 0 * * *'
+    # Запуск каждые 20 минут
+    - cron: '*/20 * * * *'
   workflow_dispatch:  # Возможность ручного запуска
 
 jobs:
@@ -42,7 +42,7 @@ jobs:
         env:
           CATEGORY_URL: ${{ secrets.CATEGORY_URL }}
 
-      - name: Проверка наличия feed.yml
+      - name: Проверка наличия файлов
         run: |
           if [ -f "feed.yml" ]; then
             echo "feed.yml создан успешно"
@@ -51,19 +51,30 @@ jobs:
             echo "feed.yml не найден"
             exit 1
           fi
+          if [ -f "index.html" ]; then
+            echo "index.html создан успешно"
+            ls -la index.html
+          else
+            echo "index.html не найден"
+            exit 1
+          fi
 
       - name: Загрузка artifact для Pages
         uses: actions/upload-artifact@v4
         with:
           name: yml-feed
-          path: feed.yml
+          path: |
+            feed.yml
+            index.html
           retention-days: 1
 
       - name: Коммит и пуш изменений
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Обновление YML фида [skip ci]"
-          file_pattern: "feed.yml"
+          commit_message: "Обновление YML фида и страницы [skip ci]"
+          file_pattern: |
+            feed.yml
+            index.html
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
 
@@ -102,6 +113,10 @@ jobs:
           else
             echo "Создание пустого feed.yml"
             echo '<?xml version="1.0" encoding="utf-8"?><yml_catalog></yml_catalog>' > ./public/feed.yml
+          fi
+          if [ -f "index.html" ]; then
+            cp index.html ./public/
+            echo "index.html успешно скопирован в public/"
           fi
 
       - name: Загрузка артефакта
