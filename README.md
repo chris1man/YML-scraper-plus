@@ -1,101 +1,102 @@
 # YML Scraper Plus
 
-Автоматический скрапер товаров с созданием YML-фида для Яндекс.Маркета.
+Скрипт для парсинга товаров и создания YML-фида для Яндекс.Маркета.
 
-## Архитектура
+## 🚀 Быстрый старт
 
-```
-GitHub Actions (каждые 10 мин / manual)  →  Python scraper  →  feed.yml (commit в main)
-                                                                        ↓
-                                              ┌─────────────────────────┴─────────────────────────┐
-                                              ↓                                                   ↓
-GitHub Pages                              Vercel
-  / (index.html)                            / → index.html (статика)
-  /feed.yml (из репо)                       /feed.yml → api/feed.js (fetch из GitHub raw)
-```
+### GitHub Actions (рекомендуется)
+1. Добавьте `CATEGORY_URL` в Repository secrets
+2. GitHub Actions автоматически запустится и опубликует YML на Pages
 
-- **GitHub Actions** — запускает `scraper.py` каждые 10 минут или вручную через вкладку Actions.
-- **Python scraper** — парсит сайт и создаёт `feed.yml`.
-- **GitHub Pages** — отдаёт статическую страницу и фид напрямую из репозитория.
-- **Vercel** — отдаёт статику + серверлесс-функция для feed.yml (всегда свежий, без пересборки).
-
-## Структура
-
-```
-.
-├── .github/workflows/scraper.yml   # Actions: cron + manual
-├── scraper.py                      # Скрапер
-├── config.py                       # Настройки
-├── requirements.txt                # Python-зависимости
-├── index.html                      # Главная страница
-├── feed.yml                        # Фид (генерируется Actions)
-├── vercel.json                     # Конфиг Vercel
-├── api/
-│   └── feed.js                     # Serverless: отдаёт feed.yml из GitHub raw
-├── .env.example                    # Пример для локального запуска
-└── README.md
+### Локальный запуск
+```bash
+pip install -r requirements.txt
+python scraper.py  # С Playwright (полная версия)
+# или
+python scraper_requests_only.py  # Только requests (быстрее)
 ```
 
-## Настройка
+## Быстрый старт
 
-### 1. Secrets в GitHub
-
-**Settings → Secrets and variables → Actions → Secrets:**
-
-| Название       | Значение                     |
-|----------------|------------------------------|
-| `CATEGORY_URL` | URL страницы со всеми товарами |
-
-**Variables** (необязательно):
-
-| Название                 | По умолчанию              |
-|--------------------------|---------------------------|
-| `SHOP_NAME`              | `My Shop`                 |
-| `SHOP_COMPANY`           | `My Company`              |
-| `SHOP_URL`               | *(пусто)*                 |
-| `USER_AGENT`             | `Mozilla/5.0 ...`         |
-| `SELECTOR_PRODUCT_LINKS` | `li.item a`               |
-| `SELECTOR_NEXT_PAGE`     | `a.ty-pagination__next`   |
-| `SELECTOR_TITLE`         | `h1.ty-product-block-title` |
-| `SELECTOR_PRICE`         | `span.ty-price-num`       |
-| `SELECTOR_DESCRIPTION`   | `div.kits-block`          |
-| `SELECTOR_IMAGES`        | `a.cm-image-previewer`    |
-| `SELECTOR_ARTICLE`       | *(пусто)*                 |
-| `SELECTOR_AVAILABILITY`  | *(пусто)*                 |
-
-### 2. GitHub Pages (опционально)
-
-**Settings → Pages → Source: Deploy from a branch** → ветка `main`, папка `/ (root)` → Save.
-
-Сайт: `https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПО/`
-Фид: `https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПО/feed.yml`
-
-### 3. Vercel (опционально)
-
-1. Зарегистрируйтесь на [vercel.com](https://vercel.com) (бесплатно).
-2. **New Project** → импортируйте этот репозиторий.
-3. В **Settings → Environment Variables** добавьте:
-
-| Название       | Значение                    |
-|----------------|-----------------------------|
-| `GITHUB_OWNER` | Ваш логин на GitHub         |
-| `GITHUB_REPO`  | Имя репозитория             |
-
-4. Нажмите **Deploy**.
-
-Сайт: `https://yml-scraper-plus.vercel.app/`
-Фид: `https://yml-scraper-plus.vercel.app/feed.yml`
-
-> **Важно:** Vercel не пересобирается при каждом обновлении feed.yml. Серверлесс-функция `api/feed.js` всегда забирает свежий файл напрямую из GitHub, поэтому фид обновляется без лишних билдов.
-
-## Локальный запуск
+### 1. Установка зависимостей
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # укажите CATEGORY_URL
+```
+
+### 2. Настройка
+
+В файле `scraper.py` измените настройки под ваш сайт:
+
+```python
+# Настройки (ИЗМЕНИТЕ ПОД ВАШ САЙТ)
+CATEGORY_URL = "https://example.com/category"  # URL категории с товарами
+SHOP_NAME = "My Shop"
+SHOP_COMPANY = "My Company"
+SHOP_URL = "https://example.com"
+```
+
+### 3. Настройка селекторов CSS
+
+Откройте `scraper.py` и измените селекторы под ваш сайт:
+
+```python
+SELECTORS = {
+    "product_links": "a.product-link",  # Ссылки на товары
+    "next_page": "a.pagination-next",    # Ссылка на следующую страницу
+    "title": "h1.product-title",        # Название товара
+    "price": "span.price",              # Цена
+    "description": "div.description",   # Описание
+    "images": "img.product-image",      # Изображения
+    "article": "span.article",          # Артикул
+    "availability": "span.availability" # Наличие
+}
+```
+
+### 4. Запуск
+
+```bash
 python scraper.py
 ```
 
-## Лицензия
+После выполнения будет создан файл `feed.yml`.
 
-MIT
+## GitHub Actions
+
+Workflow автоматически:
+- Запускается каждый день в 00:00 UTC
+- Запускает скрапер
+- Коммитит обновленный `feed.yml`
+- Публикует файл на GitHub Pages
+
+### Настройка GitHub Pages
+
+1. Зайдите в Settings → Pages
+2. В разделе "Build and deployment" выберите "GitHub Actions"
+3. После первого запуска workflow, файл будет доступен по адресу:
+   `https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПОЗИТОРИЯ/feed.yml`
+
+### Ручной запуск
+
+В GitHub перейдите в Actions → Scraper YML Feed → Run workflow
+
+## Структура проекта
+
+```
+├── scraper.py              # Основной скрипт скрапера
+├── requirements.txt        # Зависимости Python
+├── .github/
+│   └── workflows/
+│       └── scraper.yml     # GitHub Actions workflow
+└── feed.yml               # Сгенерированный YML файл (после запуска)
+```
+
+## Основные функции
+
+- `get_products_list()` - получение списка товаров с пагинацией
+- `parse_product(url)` - парсинг отдельного товара
+- `build_yml(data)` - создание YML файла
+- Автоматические повторные попытки при ошибках (до 3 раз)
+- Поддержка пагинации
+- Сохранение ссылок на изображения (без скачивания)
+- Логирование процесса
