@@ -1,10 +1,5 @@
 {
-  "builds": [
-    { "src": "api/feed.js", "use": "@vercel/node" },
-    { "src": "index.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/feed.yml", "dest": "/api/feed" },
-    { "src": "/", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/feed.yml", "destination": "/api/feed" }
   ]
 }
