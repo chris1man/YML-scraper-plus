@@ -2,7 +2,7 @@
 .env
 
 # Generated files
-# feed.yml — коммитится в репозиторий, доступен на Cloudflare Pages
+# feed.yml — коммитится в репозиторий, Worker отдаёт его через GitHub raw URL
 
 # Python
 __pycache__/
@@ -17,3 +17,6 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Wrangler
+.wrangler/

@@ -618,7 +618,6 @@ def build_yml_string(products_by_category: Dict[str, List[Dict]]) -> str:
 def run_scraper() -> str:
     """
     Запускает скрапер и возвращает YML контент строкой.
-    Используется в Vercel API.
     """
     logger.info("=== Запуск скрапера ===")
 
@@ -627,7 +626,7 @@ def run_scraper() -> str:
 
     if not CATEGORY_URL:
         logger.error("CATEGORY_URL не задан!")
-        raise ValueError("CATEGORY_URL не задан! Укажите его в переменных окружения Vercel.")
+        raise ValueError("CATEGORY_URL не задан! Укажите его в переменных окружения.")
 
     categories = get_products_with_categories(CATEGORY_URL)
 
