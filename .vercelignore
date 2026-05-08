@@ -1,5 +1,0 @@
-# Python-файлы не нужны для Vercel — там только статика + JS API
-*.py
-__pycache__/
-.env
-.env.example

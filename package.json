@@ -1,4 +1,5 @@
 {
   "name": "yml-scraper-plus",
-  "private": true
+  "private": true,
+  "type": "module"
 }
