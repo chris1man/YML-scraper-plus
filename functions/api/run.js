@@ -11,19 +11,7 @@
  */
 
 export async function onRequestPost(context) {
-  const { request, env } = context;
-
-  // CORS preflight
-  if (request.method === 'OPTIONS') {
-    return new Response(null, {
-      status: 204,
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'POST, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type',
-      },
-    });
-  }
+  const { env } = context;
 
   const token = env.GITHUB_TOKEN;
   const owner = env.GITHUB_OWNER;

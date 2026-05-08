@@ -5,15 +5,17 @@
 ## Архитектура
 
 ```
-GitHub Actions  →  Python scraper  →  feed.yml  →  GitHub Pages
-       ↑                                              ↓
-Cloudflare Worker  ←  кнопка "Запустить скрапер" на сайте
+GitHub Actions (cron / manual)  →  Python scraper  →  feed.yml
+                                                    ↓
+Cloudflare Pages  ←  index.html (статистика) + feed.yml + /api/run (Pages Function)
 ```
 
-- **GitHub Actions** — запускает Python-скрипт по расписанию (каждый день в 06:00 МСК) или вручную.
-- **Python scraper** — парсит сайт и создает `feed.yml`.
-- **GitHub Pages** — хостит статический сайт: главную страницу со статистикой и сам `feed.yml`.
-- **Cloudflare Worker** — API-эндпоинт `/api/run`, который триггерит GitHub Actions при нажатии кнопки на сайте.
+- **GitHub Actions** — запускает Python-скрипт по расписанию (каждый день в 06:00 МСК) или вручную через вкладку Actions.
+- **Python scraper** — парсит сайт и создаёт `feed.yml` в формате Яндекс.Маркета.
+- **Cloudflare Pages** — хостит статический сайт:
+  - `/` — главная страница со статистикой фида и кнопкой ручного запуска
+  - `/feed.yml` — сам фид
+  - `/api/run` — Cloudflare Pages Function для ручного запуска скрапера
 
 ## Структура проекта
 
@@ -21,15 +23,14 @@ Cloudflare Worker  ←  кнопка "Запустить скрапер" на с
 .
 ├── .github/
 │   └── workflows/
-│       └── scraper.yml      # GitHub Actions workflow
+│       └── scraper.yml      # GitHub Actions workflow (cron + manual)
 ├── functions/
 │   └── api/
-│       └── run.js           # Cloudflare Pages Function (альтернатива Worker)
-├── worker.js                # Cloudflare Worker для ручного запуска
+│       └── run.js           # Cloudflare Pages Function — POST /api/run
 ├── scraper.py               # Основной скрипт скрапера
 ├── config.py                # Конфигурация (читается из env)
 ├── requirements.txt         # Python-зависимости
-├── index.html               # Главная страница со статистикой
+├── index.html               # Главная страница со статистикой и кнопкой запуска
 ├── feed.yml                 # Сгенерированный YML-фид (коммитится Actions)
 ├── .env.example             # Пример переменных окружения
 └── README.md                # Этот файл
@@ -70,36 +71,15 @@ Cloudflare Worker  ←  кнопка "Запустить скрапер" на с
 
 > **Важно:** `CATEGORY_URL` обязателен. Все остальные параметры имеют разумные значения по умолчанию для CS-Cart.
 
-### 3. Включение GitHub Pages
-
-1. Откройте **Settings → Pages** в репозитории.
-2. В разделе **Build and deployment** выберите **Source: Deploy from a branch**.
-3. Выберите ветку `main` и папку `/ (root)`.
-4. Нажмите **Save**.
-
-После первого запуска workflow сайт будет доступен по адресу:
-```
-https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПОЗИТОРИЯ/
-```
-
-А фид по адресу:
-```
-https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПОЗИТОРИЯ/feed.yml
-```
-
-### 4. Ручной запуск скрапера
-
-- **Через GitHub:** Actions → Scraper YML Feed → Run workflow
-- **Через сайт:** нажмите кнопку "Запустить скрапер" на главной странице
-
-## Настройка Cloudflare Worker (опционально, для кнопки запуска)
-
-Если вы хотите, чтобы кнопка "Запустить скрапер" на сайте работала, нужен API-эндпоинт. GitHub Pages не поддерживает серверный код, поэтому используем Cloudflare Worker:
+### 3. Деплой на Cloudflare Pages
 
 1. Зарегистрируйтесь на [cloudflare.com](https://cloudflare.com) (бесплатно).
-2. Перейдите в **Workers & Pages → Create Worker**.
-3. Вставьте код из файла `worker.js` (в корне репозитория).
-4. В настройках Worker (Settings → Variables) добавьте:
+2. Перейдите в **Workers & Pages → Create → Pages → Connect to Git**.
+3. Выберите этот репозиторий.
+4. Настройки сборки:
+   - **Build command:** оставьте пустым (статический сайт)
+   - **Build output directory:** оставьте `/` (корень репозитория)
+5. В разделе **Settings → Environment variables** добавьте:
 
 | Название       | Значение                                                                 |
 |----------------|--------------------------------------------------------------------------|
@@ -107,15 +87,22 @@ https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПОЗИТОРИЯ/feed.yml
 | `GITHUB_OWNER` | Ваш логин на GitHub                                                      |
 | `GITHUB_REPO`  | Имя репозитория (например, `YML-scraper-plus`)                           |
 
-5. Сохраните Worker. Он получит URL вида `https://yml-scraper-plus.ВАШ_ЛОГИН.workers.dev`.
-6. В `index.html` раскомментируйте и укажите полный URL Worker:
-   ```js
-   const API_URL = 'https://yml-scraper-plus.ВАШ_ЛОГИН.workers.dev/api/run';
-   ```
+6. Нажмите **Deploy**.
 
-> **Безопасность:** токен хранится в переменных окружении Cloudflare и нигде не попадает в клиентский код.
+После деплоя сайт будет доступен по адресу:
+```
+https://yml-scraper-plus.pages.dev/
+```
 
-> **Альтернатива:** если вы используете Cloudflare Pages (не Worker), можно использовать файл `functions/api/run.js` — он работает как Pages Function внутри Pages-проекта.
+А фид по адресу:
+```
+https://yml-scraper-plus.pages.dev/feed.yml
+```
+
+### 4. Ручной запуск скрапера
+
+- **Через GitHub:** Actions → Scraper YML Feed → Run workflow
+- **Через сайт:** нажмите кнопку "Запустить скрапер" на главной странице
 
 ## Локальный запуск
 
@@ -149,8 +136,7 @@ python scraper.py
 
 - **Python 3.11** + `requests` + `BeautifulSoup`
 - **GitHub Actions** — CI/CD и cron
-- **GitHub Pages** — статический хостинг
-- **Cloudflare Worker / Pages Functions** — serverless API
+- **Cloudflare Pages** — статический хостинг + Pages Functions для API
 
 ## Лицензия
 
