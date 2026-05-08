@@ -5,53 +5,42 @@
 ## Архитектура
 
 ```
-GitHub Actions (cron / manual)  →  Python scraper  →  feed.yml (commit в репозиторий)
-                                                              ↓
-Cloudflare Worker  ←  GET / (HTML со статистикой)  +  GET /feed.yml (из GitHub raw)
+GitHub Actions (каждые 10 мин / manual)  →  Python scraper  →  feed.yml (commit)
+                                                                        ↓
+GitHub Pages  ←  index.html (статистика)  +  /feed.yml (фид)
 ```
 
-- **GitHub Actions** — запускает Python-скрипт по расписанию (каждый день в 06:00 МСК) или вручную через вкладку Actions. Результат: `feed.yml` коммитится в репозиторий.
-- **Python scraper** — парсит сайт и создаёт `feed.yml` в формате Яндекс.Маркета.
-- **Cloudflare Worker** — обслуживает два маршрута:
-  - `GET /` — главная страница со статистикой фида и ссылкой на GitHub Actions
-  - `GET /feed.yml` — отдаёт текущий `feed.yml` напрямую из репозитория
+- **GitHub Actions** — запускает `scraper.py` каждые 10 минут или вручную через вкладку Actions.
+- **Python scraper** — парсит сайт и создаёт `feed.yml`.
+- **GitHub Pages** — отдаёт статическую страницу и фид.
 
-## Структура проекта
+## Структура
 
 ```
 .
-├── .github/
-│   └── workflows/
-│       └── scraper.yml      # GitHub Actions workflow (cron + manual)
-├── worker.js                # Cloudflare Worker: GET /, GET /feed.yml
-├── wrangler.toml            # Конфигурация Cloudflare Worker
-├── scraper.py               # Основной скрипт скрапера
-├── config.py                # Конфигурация (читается из env)
-├── requirements.txt         # Python-зависимости
-├── feed.yml                 # Сгенерированный YML-фид (коммитится Actions)
-├── .env.example             # Пример переменных окружения
-└── README.md                # Этот файл
+├── .github/workflows/scraper.yml   # Actions: cron + manual
+├── scraper.py                      # Скрапер
+├── config.py                       # Настройки
+├── requirements.txt                # Python-зависимости
+├── index.html                      # Главная страница (GitHub Pages)
+├── feed.yml                        # Фид (генерируется Actions)
+├── .env.example                    # Пример для локального запуска
+└── README.md
 ```
 
-## Быстрый старт
+## Настройка
 
-### 1. Форк / клонирование
+### 1. Secrets в GitHub
 
-Склонируйте репозиторий или сделайте форк на GitHub.
+**Settings → Secrets and variables → Actions → Secrets:**
 
-### 2. Настройка секретов в GitHub
+| Название       | Значение                     |
+|----------------|------------------------------|
+| `CATEGORY_URL` | URL страницы со всеми товарами |
 
-Перейдите в **Settings → Secrets and variables → Actions** и добавьте:
+**Variables** (необязательно):
 
-**Secrets:**
-
-| Название       | Значение                              |
-|----------------|---------------------------------------|
-| `CATEGORY_URL` | URL страницы со списком всех товаров  |
-
-**Variables** (необязательно, есть дефолты):
-
-| Название                 | Значение по умолчанию     |
+| Название                 | По умолчанию              |
 |--------------------------|---------------------------|
 | `SHOP_NAME`              | `My Shop`                 |
 | `SHOP_COMPANY`           | `My Company`              |
@@ -66,46 +55,20 @@ Cloudflare Worker  ←  GET / (HTML со статистикой)  +  GET /feed.y
 | `SELECTOR_ARTICLE`       | *(пусто)*                 |
 | `SELECTOR_AVAILABILITY`  | *(пусто)*                 |
 
-### 3. Деплой Cloudflare Worker
+### 2. Включить GitHub Pages
 
-```bash
-npm install -g wrangler && wrangler login
-wrangler secret put FEED_URL
-# Введите: https://raw.githubusercontent.com/OWNER/REPO/main/feed.yml
-wrangler deploy
-```
+**Settings → Pages → Source: Deploy from a branch** → ветка `main`, папка `/ (root)` → Save.
 
-Сайт будет доступен по адресу:
-```
-https://yml-scraper.ВАШ_ЛОГИН.workers.dev/
-```
+Сайт: `https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПО/`
+Фид: `https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПО/feed.yml`
 
-### 4. Обновление фида
-
-- **Автоматически:** каждый день в 06:00 МСК
-- **Вручную:** вкладка GitHub Actions → Scraper YML Feed → Run workflow
-- **Со страницы:** кнопка "Открыть Actions" ведёт на страницу workflow
-
-## Локальный запуск скрапера
+## Локальный запуск
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # отредактируйте CATEGORY_URL
+cp .env.example .env   # укажите CATEGORY_URL
 python scraper.py
 ```
-
-## Локальная разработка Worker
-
-```bash
-wrangler dev
-# Откройте http://localhost:8787/
-```
-
-## Технологии
-
-- **Python 3.11** + `requests` + `BeautifulSoup`
-- **GitHub Actions** — cron + manual
-- **Cloudflare Workers** — хостинг
 
 ## Лицензия
 

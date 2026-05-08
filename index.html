@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YML Feed</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+        .container { max-width: 700px; margin: 0 auto; }
+        h1 { text-align: center; margin-bottom: 8px; color: #1a1a2e; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 32px; }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: #1d4ed8; }
+        .btn-secondary { background: #10b981; }
+        .btn-secondary:hover { background: #059669; }
+        .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .stat {
+            background: #f8fafc;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-value { font-size: 24px; font-weight: 700; color: #2563eb; }
+        .stat-label { font-size: 12px; color: #64748b; margin-top: 4px; }
+        .footer { text-align: center; color: #94a3b8; font-size: 12px; margin-top: 24px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YML Feed</h1>
+        <p class="subtitle">Статистика фида</p>
+        <div class="card">
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value" id="offerCount">...</div>
+                    <div class="stat-label">Товаров</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="catCount">...</div>
+                    <div class="stat-label">Категорий</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="lastUpdate">...</div>
+                    <div class="stat-label">Обновление</div>
+                </div>
+            </div>
+            <div class="actions">
+                <a class="btn" href="feed.yml" target="_blank">Открыть feed.yml</a>
+            </div>
+        </div>
+        <div class="footer">Обновляется каждые 10 минут</div>
+    </div>
+    <script>
+        fetch('feed.yml')
+            .then(r => r.text())
+            .then(xml => {
+                if (xml && xml.length > 50) {
+                    document.getElementById('offerCount').textContent = (xml.match(/<offer /g) || []).length;
+                    document.getElementById('catCount').textContent = (xml.match(/<category /g) || []).length;
+                    const m = xml.match(/<yml_catalog date="([^"]+)"/);
+                    document.getElementById('lastUpdate').textContent = m ? m[1] : '—';
+                }
+            })
+            .catch(e => console.error('feed.yml not loaded:', e));
+    </script>
+</body>
+</html>
