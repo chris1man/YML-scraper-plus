@@ -2,12 +2,19 @@
 .env
 
 # Generated files
-feed.yml
+# feed.yml — теперь коммитится в репозиторий для GitHub Pages
+# НЕ игнорируем, чтобы файл был доступен на Pages
 
 # Python
 __pycache__/
 *.pyc
 venv/
+.venv/
 
-# Vercel
-.vercel
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

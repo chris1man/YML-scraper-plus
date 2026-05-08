@@ -1,37 +1,9 @@
-import os
-import sys
-import logging
-from io import StringIO
-
-sys.path.append('.')
-
-from flask import Flask, Response, render_template_string
-from scraper import run_scraper
-
-app = Flask(__name__)
-
-# In-memory cache for feed.yml
-_cached_yml = None
-
-# Pre-load feed on startup
-def _preload_feed():
-    global _cached_yml
-    try:
-        print("Pre-loading feed...")
-        _cached_yml = run_scraper()
-        print(f"Feed pre-loaded, {len(_cached_yml)} bytes")
-    except Exception as e:
-        print(f"Error pre-loading feed: {e}")
-
-_preload_feed()
-
-HTML_PAGE = r"""
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YML Scraper</title>
+    <title>YML Feed Scraper</title>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -74,6 +46,7 @@ HTML_PAGE = r"""
             font-size: 16px;
             cursor: pointer;
             transition: background 0.2s;
+            text-decoration: none;
         }
         .btn:hover { background: #1d4ed8; }
         .btn:disabled { background: #93c5fd; cursor: not-allowed; }
@@ -96,17 +69,6 @@ HTML_PAGE = r"""
         .status.info { background: #dbeafe; color: #1e40af; display: block; }
         .status.success { background: #d1fae5; color: #065f46; display: block; }
         .status.error { background: #fee2e2; color: #991b1b; display: block; }
-        pre {
-            background: #1e1e2e;
-            color: #cdd6f4;
-            padding: 16px;
-            border-radius: 8px;
-            overflow-x: auto;
-            font-size: 13px;
-            line-height: 1.5;
-            max-height: 400px;
-            overflow-y: auto;
-        }
         .stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -138,12 +100,18 @@ HTML_PAGE = r"""
             animation: spin 0.8s linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
+        .footer {
+            text-align: center;
+            color: #94a3b8;
+            font-size: 12px;
+            margin-top: 24px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>YML Feed Scraper</h1>
-        <p class="subtitle">Принудительное обновление YML фида для Яндекс.Маркета</p>
+        <p class="subtitle">Статистика фида и управление обновлением</p>
 
         <div class="card">
             <div class="stats">
@@ -163,7 +131,7 @@ HTML_PAGE = r"""
 
             <div class="actions">
                 <button class="btn" id="updateBtn">
-                    <span>Обновить фид</span>
+                    <span>Запустить скрапер</span>
                 </button>
                 <a class="btn btn-secondary" href="/feed.yml" target="_blank">Открыть feed.yml</a>
             </div>
@@ -171,38 +139,57 @@ HTML_PAGE = r"""
             <div class="status" id="status"></div>
         </div>
 
-        <div class="card" id="previewCard" style="display:none;">
-            <h3 style="margin-top:0;">Превью YML</h3>
-            <pre id="preview"></pre>
+        <div class="footer">
+            Обновляется автоматически каждый день в 06:00 по Москве
         </div>
     </div>
 
     <script>
         const btn = document.getElementById('updateBtn');
         const status = document.getElementById('status');
-        const previewCard = document.getElementById('previewCard');
-        const preview = document.getElementById('preview');
 
+        // Загружаем статистику из feed.yml при загрузке страницы
+        async function loadStats() {
+            try {
+                const response = await fetch('/feed.yml');
+                const xml = await response.text();
+                if (xml && xml.length > 50) {
+                    updateStats(xml);
+                }
+            } catch (e) {
+                console.error('Не удалось загрузить feed.yml:', e);
+            }
+        }
+
+        function updateStats(xml) {
+            const offers = (xml.match(/<offer /g) || []).length;
+            const cats = (xml.match(/<category /g) || []).length;
+            // Извлекаем дату из yml_catalog
+            const dateMatch = xml.match(/<yml_catalog date="([^"]+)"/);
+            const dateStr = dateMatch ? dateMatch[1] : '—';
+
+            document.getElementById('offerCount').textContent = offers;
+            document.getElementById('catCount').textContent = cats;
+            document.getElementById('lastUpdate').textContent = dateStr;
+        }
+
+        // Обработчик кнопки запуска скрапера
         btn.addEventListener('click', async () => {
             btn.disabled = true;
-            btn.innerHTML = '<div class="spinner"></div><span>Обновление...</span>';
+            btn.innerHTML = '<div class="spinner"></div><span>Запуск...</span>';
             status.className = 'status info';
-            status.textContent = 'Скрапер запущен. Это может занять несколько минут...';
-            previewCard.style.display = 'none';
+            status.textContent = 'Отправлен запрос на запуск скрапера. Это может занять несколько минут...';
 
             try {
                 const response = await fetch('/api/run', { method: 'POST' });
-                const text = await response.text();
+                const data = await response.json();
 
-                if (response.ok) {
+                if (response.ok && data.success) {
                     status.className = 'status success';
-                    status.textContent = 'Фид успешно обновлен!';
-                    preview.textContent = text.substring(0, 3000) + (text.length > 3000 ? '\n\n... (truncated)' : '');
-                    previewCard.style.display = 'block';
-                    updateStats(text);
+                    status.textContent = 'Скрапер успешно запущен! Фид будет обновлен через несколько минут. Обновите страницу позже.';
                 } else {
                     status.className = 'status error';
-                    status.textContent = 'Ошибка: ' + text;
+                    status.textContent = 'Ошибка: ' + (data.error || 'Не удалось запустить скрапер');
                 }
             } catch (err) {
                 status.className = 'status error';
@@ -210,71 +197,11 @@ HTML_PAGE = r"""
             }
 
             btn.disabled = false;
-            btn.innerHTML = '<span>Обновить фид</span>';
+            btn.innerHTML = '<span>Запустить скрапер</span>';
         });
 
-        function updateStats(xml) {
-            const offers = (xml.match(/<offer /g) || []).length;
-            const cats = (xml.match(/<category /g) || []).length;
-            document.getElementById('offerCount').textContent = offers;
-            document.getElementById('catCount').textContent = cats;
-            document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('ru-RU', {hour:'2-digit', minute:'2-digit'});
-        }
-
-        // Load stats on page load
-        fetch('/feed.yml')
-            .then(r => r.text())
-            .then(xml => {
-                if (xml && xml.length > 50) {
-                    updateStats(xml);
-                }
-            })
-            .catch(() => {});
+        // Загружаем статистику при открытии страницы
+        loadStats();
     </script>
 </body>
 </html>
-"""
-
-
-@app.route('/')
-def index():
-    return render_template_string(HTML_PAGE)
-
-
-@app.route('/feed.yml')
-def feed():
-    global _cached_yml
-    if _cached_yml:
-        return Response(
-            _cached_yml,
-            mimetype='application/xml; charset=utf-8',
-            headers={'Content-Disposition': 'inline; filename="feed.yml"'}
-        )
-    return Response(
-        '<?xml version="1.0" encoding="utf-8"?><yml_catalog></yml_catalog>',
-        mimetype='application/xml; charset=utf-8'
-    )
-
-
-@app.route('/api/run', methods=['POST'])
-def api_run():
-    global _cached_yml
-
-    # Capture logs
-    log_stream = StringIO()
-    handler = logging.StreamHandler(log_stream)
-    handler.setLevel(logging.INFO)
-    root = logging.getLogger()
-    root.addHandler(handler)
-
-    try:
-        _cached_yml = run_scraper()
-        return Response(_cached_yml, mimetype='application/xml; charset=utf-8')
-    except Exception as e:
-        import traceback
-        return Response(f'Error: {str(e)}\n{traceback.format_exc()}', status=500, mimetype='text/plain; charset=utf-8')
-    finally:
-        root.removeHandler(handler)
-
-
-# Vercel entry point expects `app` variable

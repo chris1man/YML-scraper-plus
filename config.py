@@ -1,6 +1,8 @@
 """
 Configuration for YML Scraper
-All settings can be overridden by environment variables with the same name
+All settings can be overridden by environment variables with the same name.
+
+In GitHub Actions, set secrets/vars under Settings -> Secrets and variables -> Actions.
 """
 
 import os

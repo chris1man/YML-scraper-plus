@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2026-05-01 19:15">
+  <shop>
+    <name>My Shop</name>
+    <company>My Company</company>
+    <url/>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Категория</category>
+    </categories>
+    <offers>
+      <offer id="1" available="true">
+        <name>Сборный букет &quot;Сладкая эстетика&quot;</name>
+        <price>7970</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-sladkaya-estetika/</url>
+        <categoryId>1</categoryId>
+        <description>Роза пионовидная — 5 шт.
+Роза вывернутая — 4 шт.
+Гвоздика одиночная — 5 шт.
+Кустовая роза premium — 2 шт.
+Маттиола — 2 шт.
+Эустома кружевная — 3 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0621.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0602.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0600.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0591.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
+        <name>Сборный букет &quot;Баллада о лете&quot;</name>
+        <price>3490</price>
+        <url>https://maki-tomsk.ru/bukety/letnie/sbornyy-buket-ballada-o-lete/</url>
+        <categoryId>1</categoryId>
+        <description>Маттиола — 3 шт.
+Альстромерия — 3 шт.
+Гвоздика одиночная — 5 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0295.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0298.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0297.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0311.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Сборный букет &quot;Воздушная партитура&quot;</name>
+        <price>14290</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-vozdushnaya-partitura/</url>
+        <categoryId>1</categoryId>
+        <description>Хризантема Магнум — 3 шт.
+Гвоздика MOON — 7 шт.
+Эустома кружевная — 3 шт.
+Ваксфлауэр — 4 шт.
+Гортензия Колумбия — 3 шт.
+Маттиола — 10 шт.
+Роза вывернутая — 5 шт.
+Эвкалипт Baby Blue — 2 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0229.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0178.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0186.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0196.jpg</picture>
+      </offer>
+      <offer id="4" available="true">
+        <name>Сборный букет &quot;Нежный порыв&quot;</name>
+        <price>4640</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-nezhnyy-poryv/</url>
+        <categoryId>1</categoryId>
+        <description>Хризантема кустовая (крашеная) — 3 шт.
+Маттиола — 5 шт.
+Гвоздика MOON — 2 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0147.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0148.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0141.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0151.jpg</picture>
+      </offer>
+      <offer id="5" available="true">
+        <name>Дуобукет из одиночных хризантем и вибурнума &quot;Облако света&quot;</name>
+        <price>4690</price>
+        <url>https://maki-tomsk.ru/bukety/duobukety/duobuket-iz-odinochnyh-hrizantem-i-viburnuma-oblako-sveta/</url>
+        <categoryId>1</categoryId>
+        <description>Хризантема Магнум — 7 шт.
+Вибурнум — 4 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5240.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5234.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5245.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5249.jpg</picture>
+      </offer>
+      <offer id="6" available="true">
+        <name>Дуобукет из одиночных хризантем и вибурнума &quot;Светлый порыв&quot;</name>
+        <price>3520</price>
+        <url>https://maki-tomsk.ru/bukety/duobukety/duobuket-iz-odinochnyh-hrizantem-i-viburnuma-svetlyy-poryv/</url>
+        <categoryId>1</categoryId>
+        <description>Хризантема Магнум — 5 шт.
+Вибурнум — 3 шт.
+Оформление № 2 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5214.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5223.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5220.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5225.jpg</picture>
+      </offer>
+      <offer id="7" available="true">
+        <name>Сборный букет &quot;Цветущая мелодия&quot;</name>
+        <price>5580</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-cvetuschaya-melodiya/</url>
+        <categoryId>1</categoryId>
+        <description>Роза вывернутая — 3 шт.
+Маттиола — 4 шт.
+Эустома Голландия — 4 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление № 2 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5094.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5098.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5096.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5097.jpg</picture>
+      </offer>
+      <offer id="8" available="true">
+        <name>Сборный букет &quot;Лавандовый вальс&quot;</name>
+        <price>7390</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-lavandovyy-vals/</url>
+        <categoryId>1</categoryId>
+        <description>Гортензия Колумбия — 2 шт.
+Эустома кружевная — 4 шт.
+Маттиола — 4 шт.
+Гвоздика одиночная — 9 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5083.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5086.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5084.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5087.jpg</picture>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

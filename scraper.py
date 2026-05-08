@@ -249,15 +249,10 @@ def get_products_list(category_url: str) -> List[str]:
         links = soup.select(SELECTORS["product_links"])
         logger.info(f"Найдено товаров на странице: {len(links)}")
 
-        # Если requests не дал товаров — пробуем браузер
-        if len(links) == 0 and not used_browser:
-            logger.info("Пустая страница — возможно, нужен JavaScript. Пробуем браузер...")
-            browser_html = get_page_html_via_browser(current_url)
-            if browser_html:
-                soup = BeautifulSoup(browser_html, 'html.parser')
-                links = soup.select(SELECTORS["product_links"])
-                logger.info(f"Найдено товаров через браузер: {len(links)}")
-                used_browser = True
+        # Если requests не дал товаров — выходим (браузер недоступен в serverless)
+        if len(links) == 0:
+            logger.warning("Нет товаров на странице. Возможно, сайт требует JavaScript.")
+            break
 
         for link in links:
             href = link.get('href')
@@ -305,22 +300,12 @@ def get_products_with_categories(category_url: str) -> Dict[str, List[str]]:
         has_content = False
 
     if not has_content:
-        logger.info("Через requests товары не найдены, пробуем браузер...")
-        html = get_page_html_via_browser(category_url)
-        soup = BeautifulSoup(html, 'html.parser') if html else None
-    else:
-        logger.info("Используем данные из requests")
+        logger.warning("Через requests товары не найдены. Браузер недоступен в serverless окружении.")
+        return {}
 
     if not html or not soup:
-        logger.error("Не удалось загрузить страницу ни одним способом")
-        # Создаём тестовые данные для проверки workflow
-        logger.warning("Создание тестовых данных для отладки")
-        return {
-            "Тестовая категория": [
-                "https://example.com/product1",
-                "https://example.com/product2"
-            ]
-        }
+        logger.error("Не удалось загрузить страницу")
+        return {}
 
     # Пробуем найти структуру с категориями
     categories = _extract_categories_from_html(soup, category_url)
