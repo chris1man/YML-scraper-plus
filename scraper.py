@@ -5,6 +5,7 @@ YML Scraper - парсер товаров с созданием YML фида д�
 import os
 import logging
 from dotenv import load_dotenv
+from datetime import datetime, timedelta
 
 load_dotenv()  # Загружаем переменные из .env файла
 
@@ -468,7 +469,9 @@ def build_yml(products_by_category: Dict[str, List[Dict]], output_file: str = "f
 
     # Создаем корневой элемент
     yml_catalog = ET.Element("yml_catalog")
-    yml_catalog.set("date", time.strftime("%Y-%m-%d %H:%M"))
+    # Время в UTC+7 (Tomsk)
+    tomsk_time = datetime.utcnow() + timedelta(hours=7)
+    yml_catalog.set("date", tomsk_time.strftime("%Y-%m-%d %H:%M"))
 
     # Создаем элемент shop
     shop = ET.SubElement(yml_catalog, "shop")
