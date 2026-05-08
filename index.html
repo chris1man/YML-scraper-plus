@@ -173,6 +173,11 @@
             document.getElementById('lastUpdate').textContent = dateStr;
         }
 
+        // URL API для запуска скрапера.
+        // Если фронтенд и API на разных доменах — укажите полный URL:
+        // const API_URL = 'https://yml-scraper-plus.limajchris.workers.dev/api/run';
+        const API_URL = '/api/run';
+
         // Обработчик кнопки запуска скрапера
         btn.addEventListener('click', async () => {
             btn.disabled = true;
@@ -181,15 +186,22 @@
             status.textContent = 'Отправлен запрос на запуск скрапера. Это может занять несколько минут...';
 
             try {
-                const response = await fetch('/api/run', { method: 'POST' });
-                const data = await response.json();
+                const response = await fetch(API_URL, { method: 'POST' });
+                let data;
+                const contentType = response.headers.get('content-type') || '';
+                if (contentType.includes('application/json')) {
+                    data = await response.json();
+                } else {
+                    const text = await response.text();
+                    data = { success: response.ok, message: text };
+                }
 
                 if (response.ok && data.success) {
                     status.className = 'status success';
                     status.textContent = 'Скрапер успешно запущен! Фид будет обновлен через несколько минут. Обновите страницу позже.';
                 } else {
                     status.className = 'status error';
-                    status.textContent = 'Ошибка: ' + (data.error || 'Не удалось запустить скрапер');
+                    status.textContent = 'Ошибка: ' + (data.error || data.message || 'Не удалось запустить скрапер');
                 }
             } catch (err) {
                 status.className = 'status error';

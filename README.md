@@ -7,13 +7,13 @@
 ```
 GitHub Actions  →  Python scraper  →  feed.yml  →  GitHub Pages
        ↑                                              ↓
-Cloudflare Pages Function  ←  кнопка "Запустить скрапер" на сайте
+Cloudflare Worker  ←  кнопка "Запустить скрапер" на сайте
 ```
 
 - **GitHub Actions** — запускает Python-скрипт по расписанию (каждый день в 06:00 МСК) или вручную.
 - **Python scraper** — парсит сайт и создает `feed.yml`.
 - **GitHub Pages** — хостит статический сайт: главную страницу со статистикой и сам `feed.yml`.
-- **Cloudflare Pages Functions** — API-эндпоинт `/api/run`, который триггерит GitHub Actions при нажатии кнопки на сайте.
+- **Cloudflare Worker** — API-эндпоинт `/api/run`, который триггерит GitHub Actions при нажатии кнопки на сайте.
 
 ## Структура проекта
 
@@ -24,7 +24,8 @@ Cloudflare Pages Function  ←  кнопка "Запустить скрапер"
 │       └── scraper.yml      # GitHub Actions workflow
 ├── functions/
 │   └── api/
-│       └── run.js           # Cloudflare Pages Function для ручного запуска
+│       └── run.js           # Cloudflare Pages Function (альтернатива Worker)
+├── worker.js                # Cloudflare Worker для ручного запуска
 ├── scraper.py               # Основной скрипт скрапера
 ├── config.py                # Конфигурация (читается из env)
 ├── requirements.txt         # Python-зависимости
@@ -91,13 +92,14 @@ https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПОЗИТОРИЯ/feed.yml
 - **Через GitHub:** Actions → Scraper YML Feed → Run workflow
 - **Через сайт:** нажмите кнопку "Запустить скрапер" на главной странице
 
-## Настройка Cloudflare Pages (опционально, для кнопки запуска)
+## Настройка Cloudflare Worker (опционально, для кнопки запуска)
 
-Если вы хотите, чтобы кнопка "Запустить скрапер" на сайте работала:
+Если вы хотите, чтобы кнопка "Запустить скрапер" на сайте работала, нужен API-эндпоинт. GitHub Pages не поддерживает серверный код, поэтому используем Cloudflare Worker:
 
 1. Зарегистрируйтесь на [cloudflare.com](https://cloudflare.com) (бесплатно).
-2. Создайте новый проект **Pages** и подключите этот GitHub-репозиторий.
-3. В настройках проекта перейдите в **Settings → Environment variables** и добавьте:
+2. Перейдите в **Workers & Pages → Create Worker**.
+3. Вставьте код из файла `worker.js` (в корне репозитория).
+4. В настройках Worker (Settings → Variables) добавьте:
 
 | Название       | Значение                                                                 |
 |----------------|--------------------------------------------------------------------------|
@@ -105,11 +107,15 @@ https://ВАШ_ЛОГИН.github.io/ИМЯ_РЕПОЗИТОРИЯ/feed.yml
 | `GITHUB_OWNER` | Ваш логин на GitHub                                                      |
 | `GITHUB_REPO`  | Имя репозитория (например, `YML-scraper-plus`)                           |
 
-4. Пересоберите проект.
-
-Теперь кнопка на сайте будет вызывать Cloudflare Function, которая через GitHub API запускает workflow.
+5. Сохраните Worker. Он получит URL вида `https://yml-scraper-plus.ВАШ_ЛОГИН.workers.dev`.
+6. В `index.html` раскомментируйте и укажите полный URL Worker:
+   ```js
+   const API_URL = 'https://yml-scraper-plus.ВАШ_ЛОГИН.workers.dev/api/run';
+   ```
 
 > **Безопасность:** токен хранится в переменных окружении Cloudflare и нигде не попадает в клиентский код.
+
+> **Альтернатива:** если вы используете Cloudflare Pages (не Worker), можно использовать файл `functions/api/run.js` — он работает как Pages Function внутри Pages-проекта.
 
 ## Локальный запуск
 
@@ -144,7 +150,7 @@ python scraper.py
 - **Python 3.11** + `requests` + `BeautifulSoup`
 - **GitHub Actions** — CI/CD и cron
 - **GitHub Pages** — статический хостинг
-- **Cloudflare Pages Functions** — serverless API
+- **Cloudflare Worker / Pages Functions** — serverless API
 
 ## Лицензия
 
