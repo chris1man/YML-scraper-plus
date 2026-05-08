@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/feed.yml", "dest": "/api/feed" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
