@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r scraper/requirements.txt
 
       - name: Run scraper
         env:
@@ -40,7 +40,7 @@ jobs:
           SELECTOR_IMAGES: ${{ vars.SELECTOR_IMAGES || 'a.cm-image-previewer' }}
           SELECTOR_ARTICLE: ${{ vars.SELECTOR_ARTICLE || '' }}
           SELECTOR_AVAILABILITY: ${{ vars.SELECTOR_AVAILABILITY || '' }}
-        run: python scraper.py
+        run: python scraper/scraper.py
 
       - name: Commit and push feed.yml
         run: |

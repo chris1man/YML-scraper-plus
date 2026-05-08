@@ -1,4 +1,9 @@
 {
+  "framework": null,
+  "builds": [
+    { "src": "api/feed.js", "use": "@vercel/node" },
+    { "src": "index.html", "use": "@vercel/static" }
+  ],
   "rewrites": [
     { "source": "/feed.yml", "destination": "/api/feed" }
   ]
