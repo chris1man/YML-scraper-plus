@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-14 16:19">
+<yml_catalog date="2026-05-14 18:25">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -12,6 +12,39 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Композиция в шляпной коробке &quot;Фарфоровое кружево&quot;</name>
+        <price>2360</price>
+        <url>https://maki-tomsk.ru/kompozicii/cvety-v-shlyapnyh-korobkah/kompoziciya-v-shlyapnoy-korobke-farforovoe-kruzhevo/</url>
+        <categoryId>1</categoryId>
+        <description>Пион Sarah Bernhardt — 1 шт.
+Гвоздика одиночная — 5 шт.
+Маттиола — 1 шт.
+Зелень — 1 шт.
+Флористическая пена (1/2) — 1 шт.
+Коробка №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7686.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7689.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7687.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7690.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
+        <name>Композиция в шляпной коробке &quot;Аромат сумерек&quot;</name>
+        <price>2440</price>
+        <url>https://maki-tomsk.ru/kompozicii/cvety-v-shlyapnyh-korobkah/kompoziciya-v-shlyapnoy-korobke-aromat-sumerek/</url>
+        <categoryId>1</categoryId>
+        <description>Пион Sarah Bernhardt — 1 шт.
+Маттиола — 1 шт.
+Гвоздика MOON — 4 шт.
+Гвоздика одиночная — 1 шт.
+Зелень — 1 шт.
+Флористическая пена (1/2) — 1 шт.
+Коробка №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7682.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7683.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7680.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7684.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
         <name>Охапка персиковых маттиол</name>
         <price>2310</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-persikovyh-mattiol/</url>
@@ -21,7 +54,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7415.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7414.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="4" available="true">
         <name>Охапка розовых маттиол</name>
         <price>4350</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-rozovyh-mattiol-ru/</url>
@@ -31,7 +64,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7409.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7408.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="5" available="true">
         <name>Охапка розовых маттиол</name>
         <price>2310</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-rozovyh-mattiol/</url>
@@ -41,7 +74,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7412.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7411.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="6" available="true">
         <name>Охапка сиреневых маттиол</name>
         <price>4350</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-sirenevyh-mattiol-ru/</url>
@@ -51,7 +84,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7400.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7399.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="7" available="true">
         <name>Охапка сиреневых маттиол</name>
         <price>2310</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-sirenevyh-mattiol/</url>
@@ -61,7 +94,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7403.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7402.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="8" available="true">
         <name>Металлик «Пудровый бриз»</name>
         <price>11560</price>
         <url>https://maki-tomsk.ru/metallik/metallik-pudrovyy-briz/</url>
@@ -78,26 +111,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5567.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5556.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5553.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Охапка разноцветной эустомы Краснодар</name>
-        <price>5850</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-raznocvetnoy-eustomy-krasnodar/</url>
-        <categoryId>1</categoryId>
-        <description>Охапка из 15 эустом Краснодар — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7416.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7418.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7417.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Охапка сиреневой эустомы Краснодар</name>
-        <price>3150</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-sirenevoy-eustomy-krasnodar/</url>
-        <categoryId>1</categoryId>
-        <description>Охапка из 7 эустом Краснодар — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7404.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7406.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7405.jpg</picture>
       </offer>
     </offers>
   </shop>
