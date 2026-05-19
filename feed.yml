@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-19 15:05">
+<yml_catalog date="2026-05-19 17:52">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -43,6 +43,74 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7683.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7680.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7684.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Охапка персиковых маттиол</name>
+        <price>2310</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-persikovyh-mattiol/</url>
+        <categoryId>1</categoryId>
+        <description>Охапка из 7 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7413.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7415.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7414.jpg</picture>
+      </offer>
+      <offer id="4" available="true">
+        <name>Охапка розовых маттиол</name>
+        <price>4350</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-rozovyh-mattiol-ru/</url>
+        <categoryId>1</categoryId>
+        <description>Охапка из 15 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7407.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7409.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7408.jpg</picture>
+      </offer>
+      <offer id="5" available="true">
+        <name>Охапка розовых маттиол</name>
+        <price>2310</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-rozovyh-mattiol/</url>
+        <categoryId>1</categoryId>
+        <description>Охапка из 7 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7410.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7412.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7411.jpg</picture>
+      </offer>
+      <offer id="6" available="true">
+        <name>Охапка сиреневых маттиол</name>
+        <price>4350</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-sirenevyh-mattiol-ru/</url>
+        <categoryId>1</categoryId>
+        <description>Охапка из 15 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7398.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7400.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7399.jpg</picture>
+      </offer>
+      <offer id="7" available="true">
+        <name>Охапка сиреневых маттиол</name>
+        <price>2310</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-sirenevyh-mattiol/</url>
+        <categoryId>1</categoryId>
+        <description>Охапка из 7 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7401.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7403.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7402.jpg</picture>
+      </offer>
+      <offer id="8" available="true">
+        <name>Металлик «Пудровый бриз»</name>
+        <price>11440</price>
+        <url>https://maki-tomsk.ru/metallik/metallik-pudrovyy-briz/</url>
+        <categoryId>1</categoryId>
+        <description>Пион Sarah Bernhardt — 3 шт.
+Маттиола — 3 шт.
+Эустома кружевная — 6 шт.
+Оксипеталум — 8 шт.
+Гвоздика одиночная — 5 шт.
+Эвкалипт Синерия — 1 шт.
+Флористическая пена — 2 шт.
+Банка L — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5572.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5567.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5556.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5553.jpg</picture>
       </offer>
     </offers>
   </shop>
