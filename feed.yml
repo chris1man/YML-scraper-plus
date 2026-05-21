@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-21 19:34">
+<yml_catalog date="2026-05-21 23:01">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -95,6 +95,35 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9654.jpg</picture>
       </offer>
       <offer id="6" available="true">
+        <name>Сборный букет &quot;Розовое прикосновение&quot;</name>
+        <price>10470</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-rozovoe-prikosnovenie/</url>
+        <categoryId>1</categoryId>
+        <description>Пион — 9 шт.
+11 классических роз 50 см. АКЦИЯ — 1 шт.
+Гвоздика одиночная — 11 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4310.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4313.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4316.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4247.jpg</picture>
+      </offer>
+      <offer id="7" available="true">
+        <name>Букет из ромашек и эустом &quot;Ромашковый полдень&quot;</name>
+        <price>7140</price>
+        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-romashek-i-eustom-romashkovyy-polden/</url>
+        <categoryId>1</categoryId>
+        <description>Ромашка королевская — 10 шт.
+Эустома кружевная — 6 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7701.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7703.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7700.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7704.jpg</picture>
+      </offer>
+      <offer id="8" available="true">
         <name>Композиция в шляпной коробке &quot;Фарфоровое кружево&quot;</name>
         <price>2320</price>
         <url>https://maki-tomsk.ru/kompozicii/cvety-v-shlyapnyh-korobkah/kompoziciya-v-shlyapnoy-korobke-farforovoe-kruzhevo/</url>
@@ -109,33 +138,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7689.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7687.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7690.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Композиция в шляпной коробке &quot;Аромат сумерек&quot;</name>
-        <price>2400</price>
-        <url>https://maki-tomsk.ru/kompozicii/cvety-v-shlyapnyh-korobkah/kompoziciya-v-shlyapnoy-korobke-aromat-sumerek/</url>
-        <categoryId>1</categoryId>
-        <description>Пион Sarah Bernhardt — 1 шт.
-Маттиола — 1 шт.
-Гвоздика MOON — 4 шт.
-Гвоздика одиночная — 1 шт.
-Зелень — 1 шт.
-Флористическая пена (1/2) — 1 шт.
-Коробка №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7682.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7683.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7680.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7684.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Охапка персиковых маттиол</name>
-        <price>2310</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-persikovyh-mattiol/</url>
-        <categoryId>1</categoryId>
-        <description>Охапка из 7 маттиол — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7413.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7415.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7414.jpg</picture>
       </offer>
     </offers>
   </shop>
