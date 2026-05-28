@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-28 13:59">
+<yml_catalog date="2026-05-28 16:25">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,45 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 9 роз Carousel с эвкалиптом</name>
+        <price>2430</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-carousel-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>9 классических роз — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9853.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9855.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9856.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9849.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
+        <name>Монобукет из 5 пурпурных альстромерий</name>
+        <price>1550</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-alstromeriy/monobuket-iz-5-purpurnyh-alstromeriy/</url>
+        <categoryId>1</categoryId>
+        <description>Альстромерия — 5 шт.
+Фистация — 2 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9858.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9859.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9862.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9857.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Монобукет из 5 розовых альстромерий</name>
+        <price>1550</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-alstromeriy/monobuket-iz-5-rozovyh-alstromeriy/</url>
+        <categoryId>1</categoryId>
+        <description>Альстромерия — 5 шт.
+Фистация — 2 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9413.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9408.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9406.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9399.jpg</picture>
+      </offer>
+      <offer id="4" available="true">
         <name>Металлик «Импульс»</name>
         <price>10240</price>
         <url>https://maki-tomsk.ru/metallik/metallik-impuls/</url>
@@ -29,7 +68,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9666.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9670.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="5" available="true">
         <name>Металлик «Аромат любви»</name>
         <price>6860</price>
         <url>https://maki-tomsk.ru/metallik/metallik-aromat-lyubvi/</url>
@@ -42,7 +81,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9663.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9661.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="6" available="true">
         <name>Металлик «Нежное пламя»</name>
         <price>9700</price>
         <url>https://maki-tomsk.ru/metallik/metallik-nezhnoe-plamya/</url>
@@ -59,7 +98,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9672.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9673.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="7" available="true">
         <name>Металлик «Дыхание огня»</name>
         <price>11950</price>
         <url>https://maki-tomsk.ru/metallik/metallik-dyhanie-ognya/</url>
@@ -77,7 +116,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9657.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9660.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="8" available="true">
         <name>Металлик «Лаймовый сорбет»</name>
         <price>13170</price>
         <url>https://maki-tomsk.ru/metallik/metallik-laymovyy-sorbet/</url>
@@ -94,51 +133,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9638.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9565.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9654.jpg</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Сборный букет &quot;Розовое прикосновение&quot;</name>
-        <price>10470</price>
-        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-rozovoe-prikosnovenie/</url>
-        <categoryId>1</categoryId>
-        <description>Пион — 9 шт.
-11 классических роз 50 см. АКЦИЯ — 1 шт.
-Гвоздика одиночная — 11 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №3 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4310.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4313.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4316.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4247.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Букет из ромашек и эустом &quot;Ромашковый полдень&quot;</name>
-        <price>7140</price>
-        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-romashek-i-eustom-romashkovyy-polden/</url>
-        <categoryId>1</categoryId>
-        <description>Ромашка королевская — 10 шт.
-Эустома кружевная — 6 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №3 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7701.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7703.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7700.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7704.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Композиция в шляпной коробке &quot;Фарфоровое кружево&quot;</name>
-        <price>2320</price>
-        <url>https://maki-tomsk.ru/kompozicii/cvety-v-shlyapnyh-korobkah/kompoziciya-v-shlyapnoy-korobke-farforovoe-kruzhevo/</url>
-        <categoryId>1</categoryId>
-        <description>Пион Sarah Bernhardt — 1 шт.
-Гвоздика одиночная — 5 шт.
-Маттиола — 1 шт.
-Зелень — 1 шт.
-Флористическая пена (1/2) — 1 шт.
-Коробка №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7686.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7689.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7687.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7690.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка нежно-розовых пионов Sarah Bernhardt</name>
