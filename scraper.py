@@ -415,15 +415,24 @@ def parse_product(url: str) -> Optional[Dict]:
         images = []
         img_elems = soup.select(SELECTORS["images"])
         for img in img_elems:
-            # CS-Cart: большие фото хранятся в href у тега <a>
-            # Обычные сайты: в src/data-src у тега <img>
             src = img.get('href') or img.get('src') or img.get('data-src')
             if src:
                 full_src = urljoin(url, src)
                 if full_src not in images:
-                    # Фильтруем только реальные изображения
                     if full_src.endswith(('.jpg', '.jpeg', '.png', '.webp', '.gif')):
                         images.append(full_src)
+
+        # Fallback: ищем изображения без cm-image-previewer класса
+        # (некоторые товары используют прямые ссылки на /detailed/ без класса previewer)
+        if not images:
+            detailed_links = soup.select('a[href*="/detailed/"]')
+            for link in detailed_links:
+                href = link.get('href')
+                if href:
+                    full_src = urljoin(url, href)
+                    if full_src not in images:
+                        if full_src.endswith(('.jpg', '.jpeg', '.png', '.webp', '.gif')):
+                            images.append(full_src)
 
         # Извлекаем артикул
         article = ""
