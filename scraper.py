@@ -414,6 +414,7 @@ def parse_product(url: str) -> Optional[Dict]:
         # Извлекаем все изображения
         images = []
         img_elems = soup.select(SELECTORS["images"])
+        logger.info(f"Main image search: selector='{SELECTORS['images']}' found {len(img_elems)} elements")
         for img in img_elems:
             src = img.get('href') or img.get('src') or img.get('data-src')
             if src:
@@ -422,16 +423,17 @@ def parse_product(url: str) -> Optional[Dict]:
                     if full_src.endswith(('.jpg', '.jpeg', '.png', '.webp', '.gif')):
                         images.append(full_src)
 
-        # Fallback: ищем изображения без cm-image-previewer класса
+# Fallback: ищем изображения без cm-image-previewer класса
         # (некоторые товары используют прямые ссылки на /detailed/ без класса previewer)
         if not images:
             detailed_links = soup.select('a[href*="/detailed/"]')
+            logger.info(f"Fallbak image search: found {len(detailed_links)} links with /detailed/")
             for link in detailed_links:
                 href = link.get('href')
                 if href:
                     full_src = urljoin(url, href)
                     if full_src not in images:
-                        if full_src.endswith(('.jpg', '.jpeg', '.png', '.webp', '.gif')):
+                        if full_src.lower().endswith(('.jpg', '.jpeg', '.png', '.webp', '.gif')):
                             images.append(full_src)
 
         # Извлекаем артикул
@@ -461,7 +463,7 @@ def parse_product(url: str) -> Optional[Dict]:
             "available": available
         }
 
-        logger.info(f"Успешно спарсен товар: {title}")
+        logger.info(f"Успешно спарсен товар: {title}, изображений: {len(images)}")
         return product_data
 
     except Exception as e:

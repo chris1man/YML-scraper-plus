@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-28 16:25">
+<yml_catalog date="2026-05-28 16:35">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,18 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 15 черничных роз в оформлении</name>
+        <price>2950</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-chernichnyh-roz-v-oformlenii/</url>
+        <categoryId>1</categoryId>
+        <description>15 классических роз Мордовия 50 см — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9384.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9380.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9373.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9378.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Букет из 9 роз Carousel с эвкалиптом</name>
         <price>2430</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-carousel-s-evkaliptom/</url>
@@ -25,7 +37,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9856.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9849.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Монобукет из 5 пурпурных альстромерий</name>
         <price>1550</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-alstromeriy/monobuket-iz-5-purpurnyh-alstromeriy/</url>
@@ -38,7 +50,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9862.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9857.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Монобукет из 5 розовых альстромерий</name>
         <price>1550</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-alstromeriy/monobuket-iz-5-rozovyh-alstromeriy/</url>
@@ -51,7 +63,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9406.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9399.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Металлик «Импульс»</name>
         <price>10240</price>
         <url>https://maki-tomsk.ru/metallik/metallik-impuls/</url>
@@ -68,7 +80,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9666.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9670.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Металлик «Аромат любви»</name>
         <price>6860</price>
         <url>https://maki-tomsk.ru/metallik/metallik-aromat-lyubvi/</url>
@@ -81,7 +93,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9663.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9661.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Металлик «Нежное пламя»</name>
         <price>9700</price>
         <url>https://maki-tomsk.ru/metallik/metallik-nezhnoe-plamya/</url>
@@ -98,7 +110,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9672.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9673.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Металлик «Дыхание огня»</name>
         <price>11950</price>
         <url>https://maki-tomsk.ru/metallik/metallik-dyhanie-ognya/</url>
@@ -115,24 +127,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9658.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9657.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9660.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Металлик «Лаймовый сорбет»</name>
-        <price>13170</price>
-        <url>https://maki-tomsk.ru/metallik/metallik-laymovyy-sorbet/</url>
-        <categoryId>1</categoryId>
-        <description>Калла — 12 шт.
-Гвоздика ГРИН ТРИК — 4 шт.
-Эустома кружевная — 6 шт.
-Скиммия — 4 шт.
-Роза пионовидная — 2 шт.
-Эвкалипт Синерия — 1 шт.
-Флористическая пена — 2 шт.
-Банка XL — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9653.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9638.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9565.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9654.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка нежно-розовых пионов Sarah Bernhardt</name>
@@ -160,6 +154,9 @@
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-altay-ru/</url>
         <categoryId>2</categoryId>
         <description>Охапка из 9 кустовых хризантем — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3407.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3408.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3410.JPG</picture>
       </offer>
       <offer id="12" available="true">
         <name>Охапка кустовых роз Miss Bombastic</name>
@@ -177,6 +174,9 @@
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-misty-bubbles/</url>
         <categoryId>2</categoryId>
         <description>Охапка из 5 кустовых роз — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_5691.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_5693.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_5692.JPG</picture>
       </offer>
     </offers>
   </shop>
