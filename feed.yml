@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-29 06:53">
+<yml_catalog date="2026-05-29 10:28">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -14,7 +14,7 @@
     <offers>
       <offer id="1" available="true">
         <name>Сборный букет &quot;Шёпот ветра&quot;</name>
-        <price>1860</price>
+        <price>1770</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-shepot-vetra/</url>
         <categoryId>1</categoryId>
         <description>Гербера мини — 3 шт.
@@ -28,7 +28,7 @@
       </offer>
       <offer id="2" available="true">
         <name>Сборный букет &quot;Клубничный зефир&quot;</name>
-        <price>1860</price>
+        <price>2340</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-klubnichnyy-zefir/</url>
         <categoryId>1</categoryId>
         <description>Хризантема Santini — 3 шт.
