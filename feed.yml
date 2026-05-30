@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-05-30 13:24">
+<yml_catalog date="2026-05-30 16:03">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -94,7 +94,7 @@
       </offer>
       <offer id="7" available="true">
         <name>Металлик «Импульс»</name>
-        <price>10240</price>
+        <price>10270</price>
         <url>https://maki-tomsk.ru/metallik/metallik-impuls/</url>
         <categoryId>1</categoryId>
         <description>Калла — 3 шт.
