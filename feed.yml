@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-06-07 21:25">
+<yml_catalog date="2026-06-07 22:56">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -8,157 +8,22 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     <categories>
-      <category id="1">Категория</category>
-      <category id="2">Охапки</category>
+      <category id="1">Тестовая категория</category>
     </categories>
     <offers>
       <offer id="1" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>10690</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream-ru-2/</url>
+        <name>Тестовый товар 1</name>
+        <price>100</price>
+        <url>https://example.com/test1</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 25 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0874.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0876.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0875.jpg</picture>
+        <description>Тестовое описание</description>
       </offer>
       <offer id="2" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>6990</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream-ru/</url>
+        <name>Тестовый товар 2</name>
+        <price>200</price>
+        <url>https://example.com/test2</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 15 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0870.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0872.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0871.jpg</picture>
-      </offer>
-      <offer id="3" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>3690</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream/</url>
-        <categoryId>1</categoryId>
-        <description>Охапка из 7 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0867.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0869.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0868.jpg</picture>
-      </offer>
-      <offer id="4" available="true">
-        <name>Букет из 7 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>3480</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-7-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>Хризантема одиночная — 7 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №3 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0895.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0896.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0892.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0891.jpg</picture>
-      </offer>
-      <offer id="5" available="true">
-        <name>Букет из 5 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>2700</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-5-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>Хризантема одиночная — 5 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление № 2 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0897.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0900.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0899.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0901.jpg</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Букет из 3 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>1920</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-3-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>Хризантема одиночная — 3 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0902.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0906.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0904.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0905.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Сборный букет &quot;Шёпот ветра&quot;</name>
-        <price>1770</price>
-        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-shepot-vetra/</url>
-        <categoryId>1</categoryId>
-        <description>Гербера мини — 3 шт.
-Хризантема кустовая — 2 шт.
-Хризантема Santini — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9892.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9893.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9891.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9890.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Сборный букет &quot;Клубничный зефир&quot;</name>
-        <price>2340</price>
-        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-klubnichnyy-zefir/</url>
-        <categoryId>1</categoryId>
-        <description>Хризантема Santini — 3 шт.
-Эустома кружевная — 1 шт.
-Гербера мини — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9885.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9882.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9881.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9883.jpg</picture>
-      </offer>
-      <offer id="9" available="true">
-        <name>Охапка альстромерий Pamela</name>
-        <price>2550</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-pamela-ru/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 15 альстромерий — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4809.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4811.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4810.JPG</picture>
-      </offer>
-      <offer id="10" available="true">
-        <name>Охапка нежно-розовых пионов Sarah Bernhardt</name>
-        <price>5850</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-nezhno-rozovyh-pionov-sarah-bernhardt-ru/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 15 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0456.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0452.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0451.jpg</picture>
-      </offer>
-      <offer id="11" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>3690</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 7 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0867.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0869.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0868.jpg</picture>
-      </offer>
-      <offer id="12" available="true">
-        <name>Охапка нежно-розовых пионов Sarah Bernhardt</name>
-        <price>9750</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-nezhno-rozovyh-pionov-sarah-bernhardt-ru-2/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 25 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0457.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0324.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0458.jpg</picture>
-      </offer>
-      <offer id="13" available="true">
-        <name>Охапка розовых маттиол</name>
-        <price>4350</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-rozovyh-mattiol-ru/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 15 маттиол — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7407.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7409.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7408.jpg</picture>
+        <description>Тестовое описание 2</description>
       </offer>
     </offers>
   </shop>
