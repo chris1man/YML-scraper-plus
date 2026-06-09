@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-06-09 15:22">
+<yml_catalog date="2026-06-09 18:44">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -43,6 +43,19 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0868.jpg</picture>
       </offer>
       <offer id="4" available="true">
+        <name>Букет из белых пионов с оксипеталумом &quot;Первое признание&quot;</name>
+        <price>13290</price>
+        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-belyh-pionov-s-oksipetalumom-pervoe-priznanie/</url>
+        <categoryId>1</categoryId>
+        <description>Пион — 21 шт.
+Оксипеталум — 11 шт.
+Оформление №4 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1011.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1007.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1009_qynb-2q.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1004.jpg</picture>
+      </offer>
+      <offer id="5" available="true">
         <name>Букет из 7 одиночных хризантем Tutu с эвкалиптом</name>
         <price>3480</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-7-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
@@ -55,7 +68,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0892.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0891.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Букет из 5 одиночных хризантем Tutu с эвкалиптом</name>
         <price>2700</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-5-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
@@ -68,9 +81,9 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0899.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0901.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Букет из 3 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>1920</price>
+        <price>2170</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-3-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
         <categoryId>1</categoryId>
         <description>Хризантема одиночная — 3 шт.
@@ -81,34 +94,17 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0904.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0905.jpg</picture>
       </offer>
-      <offer id="7" available="true">
-        <name>Сборный букет &quot;Шёпот ветра&quot;</name>
-        <price>1770</price>
-        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-shepot-vetra/</url>
-        <categoryId>1</categoryId>
-        <description>Гербера мини — 3 шт.
-Хризантема кустовая — 2 шт.
-Хризантема Santini — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9892.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9893.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9891.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9890.jpg</picture>
-      </offer>
       <offer id="8" available="true">
-        <name>Сборный букет &quot;Клубничный зефир&quot;</name>
-        <price>2340</price>
-        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-klubnichnyy-zefir/</url>
+        <name>Букет из 11 белых пионов</name>
+        <price>5450</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-pionov/buket-iz-11-belyh-pionov/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема Santini — 3 шт.
-Эустома кружевная — 1 шт.
-Гербера мини — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9885.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9882.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9881.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_9883.jpg</picture>
+        <description>Пион — 11 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0373.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0374.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0371.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0372.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка альстромерий Galaxy</name>
