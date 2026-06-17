@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-06-17 14:09">
+<yml_catalog date="2026-06-17 18:59">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,98 +13,60 @@
     </categories>
     <offers>
       <offer id="1" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>10690</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream-ru-2/</url>
+        <name>Открытка &quot;Путеводная нить&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-putevodnaya-nit/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 25 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0874.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0876.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0875.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/8.png</picture>
       </offer>
       <offer id="2" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>6990</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream-ru/</url>
+        <name>Открытка &quot;Театр теней&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-teatr-teney/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 15 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0870.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0872.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0871.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/7.png</picture>
       </offer>
       <offer id="3" available="true">
-        <name>Охапка белых пионов Bowl of Cream</name>
-        <price>3690</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-pionov-bowl-of-cream/</url>
+        <name>Открытка &quot;Загадай желание&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-zagaday-zhelanie/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 7 пионов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0867.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0869.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0868.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/9.png</picture>
       </offer>
       <offer id="4" available="true">
-        <name>Букет из белых пионов с оксипеталумом &quot;Первое признание&quot;</name>
-        <price>13290</price>
-        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-belyh-pionov-s-oksipetalumom-pervoe-priznanie/</url>
+        <name>Открытка &quot;С днем рождения&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-9/</url>
         <categoryId>1</categoryId>
-        <description>Пион — 21 шт.
-Оксипеталум — 11 шт.
-Оформление №4 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1011.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1007.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1009_qynb-2q.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_1004.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/6.png</picture>
       </offer>
       <offer id="5" available="true">
-        <name>Букет из 7 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>3830</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-7-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
+        <name>Открытка &quot;С днем рождения!&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-8/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема одиночная — 7 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №3 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0895.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0896.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0892.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0891.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/5.png</picture>
       </offer>
       <offer id="6" available="true">
-        <name>Букет из 5 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>3000</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-5-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
+        <name>Открытка &quot;С днем рождения!&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-7/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема одиночная — 5 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление № 2 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0897.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0900.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0899.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0901.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/4.png</picture>
       </offer>
       <offer id="7" available="true">
-        <name>Букет из 3 одиночных хризантем Tutu с эвкалиптом</name>
-        <price>2170</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-3-odinochnyh-hrizantem-tutu-s-evkaliptom/</url>
+        <name>Открытка &quot;С днем рождения!&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-6/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема одиночная — 3 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0902.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0906.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0904.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0905.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/3.png</picture>
       </offer>
       <offer id="8" available="true">
-        <name>Букет из 11 белых пионов</name>
-        <price>5450</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-pionov/buket-iz-11-belyh-pionov/</url>
+        <name>Открытка &quot;Пудровый шёпот&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-pudrovyy-shepot/</url>
         <categoryId>1</categoryId>
-        <description>Пион — 11 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0373.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0374.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0371.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0372.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/1.png</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка классических роз Nina</name>
