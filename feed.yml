@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-06-18 12:08">
+<yml_catalog date="2026-06-18 16:49">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -69,6 +69,16 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/1.png</picture>
       </offer>
       <offer id="9" available="true">
+        <name>Охапка альстромерий Casanova</name>
+        <price>2550</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-casanova-ru/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 15 альстромерий — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6711.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6713.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6712.jpg</picture>
+      </offer>
+      <offer id="10" available="true">
         <name>Охапка классических роз Nina</name>
         <price>3000</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-klassicheskih-roz-nina/</url>
@@ -78,7 +88,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6167.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6166.JPG</picture>
       </offer>
-      <offer id="10" available="true">
+      <offer id="11" available="true">
         <name>Охапка альстромерий Galaxy</name>
         <price>2550</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-galaxy-ru/</url>
@@ -88,7 +98,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4840.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4839.JPG</picture>
       </offer>
-      <offer id="11" available="true">
+      <offer id="12" available="true">
         <name>Охапка нежно-розовых пионов Sarah Bernhardt</name>
         <price>5850</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-nezhno-rozovyh-pionov-sarah-bernhardt-ru/</url>
@@ -98,25 +108,15 @@
         <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0452.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0451.jpg</picture>
       </offer>
-      <offer id="12" available="true">
-        <name>Охапка классических роз Full monty</name>
-        <price>3000</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-klassicheskih-roz-full-monty/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 25 классических роз 50 см — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3679.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3680.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3681.JPG</picture>
-      </offer>
       <offer id="13" available="true">
-        <name>Охапка альстромерий Casanova</name>
-        <price>2550</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-casanova-ru/</url>
+        <name>Охапка гортензий Verena Purple</name>
+        <price>2450</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gortenziy-verena-purple/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 15 альстромерий — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6711.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6713.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6712.jpg</picture>
+        <description>Охапка из 5 гортензий Verena — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6492.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6495.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6493.JPG</picture>
       </offer>
     </offers>
   </shop>
