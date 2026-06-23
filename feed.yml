@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-06-23 07:05">
+<yml_catalog date="2026-06-23 11:33">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -8,111 +8,54 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     <categories>
-      <category id="1">Категория</category>
-      <category id="2">Охапки</category>
+      <category id="1">Охапки</category>
     </categories>
     <offers>
       <offer id="1" available="true">
-        <name>Открытка &quot;Путеводная нить&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-putevodnaya-nit/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/8.png</picture>
-      </offer>
-      <offer id="2" available="true">
-        <name>Открытка &quot;Театр теней&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-teatr-teney/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/7.png</picture>
-      </offer>
-      <offer id="3" available="true">
-        <name>Открытка &quot;Загадай желание&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-zagaday-zhelanie/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/9.png</picture>
-      </offer>
-      <offer id="4" available="true">
-        <name>Открытка &quot;С днем рождения&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-9/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/6.png</picture>
-      </offer>
-      <offer id="5" available="true">
-        <name>Открытка &quot;С днем рождения!&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-8/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/5.png</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Открытка &quot;С днем рождения!&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-7/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/4.png</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Открытка &quot;С днем рождения!&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-s-dnem-rozhdeniya-ru-6/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/3.png</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Открытка &quot;Пудровый шёпот&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-pudrovyy-shepot/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/1.png</picture>
-      </offer>
-      <offer id="9" available="true">
         <name>Охапка классических роз Silantoi</name>
         <price>3000</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-klassicheskih-roz-silantoi/</url>
-        <categoryId>2</categoryId>
+        <categoryId>1</categoryId>
         <description>Охапка из 25 классических роз 50 см — 1 шт.</description>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_5682.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_5684.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_5683.JPG</picture>
       </offer>
-      <offer id="10" available="true">
+      <offer id="2" available="true">
         <name>Охапка альстромерий Galaxy</name>
         <price>2550</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-galaxy-ru/</url>
-        <categoryId>2</categoryId>
+        <categoryId>1</categoryId>
         <description>Охапка из 15 альстромерий — 1 шт.</description>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4838.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4840.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4839.JPG</picture>
       </offer>
-      <offer id="11" available="true">
+      <offer id="3" available="true">
         <name>Охапка классических роз Pink Mondial</name>
         <price>2100</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-klassicheskih-roz-pink-mondial-ru/</url>
-        <categoryId>2</categoryId>
+        <categoryId>1</categoryId>
         <description>Охапка из 15 классических роз 50 см — 1 шт.</description>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6138.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6140.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6139.JPG</picture>
       </offer>
-      <offer id="12" available="true">
+      <offer id="4" available="true">
         <name>Охапка альстромерий Pamela</name>
         <price>2550</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-pamela-ru/</url>
-        <categoryId>2</categoryId>
+        <categoryId>1</categoryId>
         <description>Охапка из 15 альстромерий — 1 шт.</description>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4809.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4811.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4810.JPG</picture>
       </offer>
-      <offer id="13" available="true">
+      <offer id="5" available="true">
         <name>Охапка классических роз Nina</name>
         <price>3000</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-klassicheskih-roz-nina/</url>
-        <categoryId>2</categoryId>
+        <categoryId>1</categoryId>
         <description>Охапка из 25 классических роз 50 см — 1 шт.</description>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6165.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6167.JPG</picture>
