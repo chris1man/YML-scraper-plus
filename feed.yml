@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-06-26 14:10">
+<yml_catalog date="2026-06-26 17:31">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,58 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 21 розы Silantoi с эвкалиптом</name>
+        <price>3730</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-rozy-silantoi-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>21 классическая роза 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3093.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3096.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3092.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3094.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
+        <name>Букет из 15 роз Silantoi с эвкалиптом</name>
+        <price>2650</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-silantoi-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>15 классических роз 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3076.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3078.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3077.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3079.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Букет из 9 роз Silantoi с эвкалиптом</name>
+        <price>1850</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-silantoi-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>9 классических роз — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3088.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3090.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3089.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3091.jpg</picture>
+      </offer>
+      <offer id="4" available="true">
+        <name>Букет из 7 роз Silantoi с эвкалиптом</name>
+        <price>1550</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-7-roz-silantoi-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>7 классических роз — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №10 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3083.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3084.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3085.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3082.jpg</picture>
+      </offer>
+      <offer id="5" available="true">
         <name>Букет из 15 роз Pink Mondial в оформлении</name>
         <price>2500</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-pink-mondial-v-oformlenii/</url>
@@ -24,7 +76,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2887__convert.io_.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2885.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="6" available="true">
         <name>Букет из 15 роз Nina с эвкалиптом</name>
         <price>2650</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-nina-s-evkaliptom/</url>
@@ -37,7 +89,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2875.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2874.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="7" available="true">
         <name>Букет из 11 роз Nina с эвкалиптом</name>
         <price>2150</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-roz-nina-s-evkaliptom/</url>
@@ -50,7 +102,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2890.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2891.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="8" available="true">
         <name>Букет из 9 роз Nina с эвкалиптом</name>
         <price>1850</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-nina-s-evkaliptom/</url>
@@ -62,40 +114,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2869.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2868.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2867.jpg</picture>
-      </offer>
-      <offer id="5" available="true">
-        <name>Букет из 7 роз Nina с эвкалиптом</name>
-        <price>1550</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-7-roz-nina-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>7 классических роз — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №10 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2879.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2882.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2881.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2883.jpg</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Открытка &quot;Путеводная нить&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-putevodnaya-nit/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/8.png</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Открытка &quot;Театр теней&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-teatr-teney/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/7.png</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Открытка &quot;Загадай желание&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-zagaday-zhelanie/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/9.png</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка эвкалипта Cinerea</name>
