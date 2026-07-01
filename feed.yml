@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-07-01 08:56">
+<yml_catalog date="2026-07-01 13:27">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,71 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 21 пионовидной розы Kahala с эвкалиптом</name>
+        <price>3850</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-pionovidnoy-rozy-kahala-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>21 пионовидная роза 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3609.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3611.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3610.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3613.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
+        <name>Букет из 15 пионовидных роз Kahala с эвкалиптом</name>
+        <price>2850</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-kahala-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>15 пионовидных роз АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3604.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3606.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3602.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3605.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Букет из 11 пионовидных роз Kahala с эвкалиптом</name>
+        <price>2450</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-pionovidnyh-roz-kahala-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>11 пионовидных роз 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3585.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3583.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3587.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3596.jpg</picture>
+      </offer>
+      <offer id="4" available="true">
+        <name>Букет из 9 пионовидных роз Kahala с эвкалиптом</name>
+        <price>2050</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-pionovidnyh-roz-kahala-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>9 пионовидных роз — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3597.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3599.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3600.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3601.jpg</picture>
+      </offer>
+      <offer id="5" available="true">
+        <name>Букет из 7 пионовидных роз Kahala с эвкалиптом</name>
+        <price>1750</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-7-pionovidnyh-roz-kahala-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>7 пионовидных роз АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №10 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3593.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3592.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3590.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3595.jpg</picture>
+      </offer>
+      <offer id="6" available="true">
         <name>Букет из 21 розы Silantoi с эвкалиптом</name>
         <price>3730</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-rozy-silantoi-s-evkaliptom/</url>
@@ -25,7 +90,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3092.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3094.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="7" available="true">
         <name>Букет из 15 роз Silantoi с эвкалиптом</name>
         <price>3000</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-silantoi-s-evkaliptom/</url>
@@ -38,7 +103,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3077.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_3079.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="8" available="true">
         <name>Букет из 15 роз Pink Mondial в оформлении</name>
         <price>2500</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-pink-mondial-v-oformlenii/</url>
@@ -49,65 +114,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2889.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2887__convert.io_.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2885.jpg</picture>
-      </offer>
-      <offer id="4" available="true">
-        <name>Букет из 15 роз Nina с эвкалиптом</name>
-        <price>2650</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-nina-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>15 классических роз 50 см. АКЦИЯ — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2876.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2877.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2875.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2874.jpg</picture>
-      </offer>
-      <offer id="5" available="true">
-        <name>Букет из 11 роз Nina с эвкалиптом</name>
-        <price>2150</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-roz-nina-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>11 классических роз 50 см. АКЦИЯ — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2892.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2894.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2890.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2891.jpg</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Букет из 9 роз Nina с эвкалиптом</name>
-        <price>1850</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-nina-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>9 классических роз — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2871.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2869.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2868.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2867.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Букет из 7 роз Nina с эвкалиптом</name>
-        <price>1550</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-7-roz-nina-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>7 классических роз — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №10 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2879.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2882.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2881.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_2883.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Открытка &quot;Путеводная нить&quot;</name>
-        <price>40</price>
-        <url>https://maki-tomsk.ru/otkrytki/otkrytka-putevodnaya-nit/</url>
-        <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/8.png</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка пионовидных роз Kahala</name>
@@ -120,43 +126,43 @@
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_7114.JPG</picture>
       </offer>
       <offer id="10" available="true">
-        <name>Охапка эвкалипта Cinerea</name>
-        <price>900</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-evkalipta-cinerea/</url>
+        <name>Охапка кустовых хризантем Altay</name>
+        <price>2070</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-altay-ru/</url>
         <categoryId>2</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4506.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4508.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4507.JPG</picture>
+        <description>Охапка из 9 кустовых хризантем — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3407.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3408.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3410.JPG</picture>
       </offer>
       <offer id="11" available="true">
-        <name>Охапка кустовых роз Jana</name>
-        <price>1950</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-jana/</url>
+        <name>Охапка пионовидных роз Pink Expression</name>
+        <price>2550</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-pionovidnyh-roz-pink-expression/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 5 кустовых роз — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_2663_1xzx-be.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_2665.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_2664.jpg</picture>
+        <description>Охапка из 15 пионовидных роз 50 см — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6156.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6158.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6157.JPG</picture>
       </offer>
       <offer id="12" available="true">
-        <name>Охапка классических роз Nina</name>
-        <price>3000</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-klassicheskih-roz-nina/</url>
+        <name>Сет «Зеленый ритм»</name>
+        <price>3130</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/sety/set-zelenyy-ritm/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 25 классических роз 50 см — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6165.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6167.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6166.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0992.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0993.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_0994.jpg</picture>
       </offer>
       <offer id="13" available="true">
-        <name>Охапка альстромерий Galaxy</name>
-        <price>2550</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-galaxy-ru/</url>
+        <name>Охапка классических роз Explorer</name>
+        <price>3000</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-klassicheskih-roz-explorer/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 15 альстромерий — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4838.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4840.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4839.JPG</picture>
+        <description>Охапка из 25 классических роз 50 см — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3592.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3607.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3584.JPG</picture>
       </offer>
     </offers>
   </shop>
