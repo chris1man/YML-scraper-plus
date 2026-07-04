@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-07-04 16:03">
+<yml_catalog date="2026-07-04 18:03">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -117,7 +117,7 @@
       </offer>
       <offer id="9" available="true">
         <name>Охапка пионовидных роз Kahala</name>
-        <price>3750</price>
+        <price>4250</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-pionovidnyh-roz-kahala/</url>
         <categoryId>2</categoryId>
         <description>Охапка из 25 пионовидных роз 50 см — 1 шт.</description>
