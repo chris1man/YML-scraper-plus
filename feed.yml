@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-07-07 08:11">
+<yml_catalog date="2026-07-07 12:11">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -52,45 +52,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4356.jpg</picture>
       </offer>
       <offer id="4" available="true">
-        <name>Букет из 11 роз Full monty с эвкалиптом</name>
-        <price>2250</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-roz-full-monty-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>11 классических роз 50 см. АКЦИЯ — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4350.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4353_—_копия.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4348.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4353.jpg</picture>
-      </offer>
-      <offer id="5" available="true">
-        <name>Букет из 9 роз Full monty с эвкалиптом</name>
-        <price>1950</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-full-monty-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>9 классических роз — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4336.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4339.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4338.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4340.jpg</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Букет из 7 роз Full monty с эвкалиптом</name>
-        <price>1750</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-7-roz-full-monty-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>7 классических роз — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №10 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4333.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4334.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4331.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4335.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
         <name>Букет из 25 роз Explorer с эвкалиптом</name>
         <price>3850</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-roz-explorer-s-evkaliptom-ru/</url>
@@ -103,7 +64,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4289.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4293.jpg</picture>
       </offer>
-      <offer id="8" available="true">
+      <offer id="5" available="true">
         <name>Букет из 21 розы Explorer с эвкалиптом</name>
         <price>3350</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-rozy-explorer-s-evkaliptom/</url>
@@ -115,6 +76,45 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4297.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4295.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4298.jpg</picture>
+      </offer>
+      <offer id="6" available="true">
+        <name>Букет из 15 роз Explorer с эвкалиптом</name>
+        <price>2850</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-explorer-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>15 классических роз 50 см. АКЦИЯ (бордо) — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4263.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4266.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4264.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4267.jpg</picture>
+      </offer>
+      <offer id="7" available="true">
+        <name>Букет из 11 роз Explorer с эвкалиптом</name>
+        <price>2250</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-roz-explorer-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>11 классических роз 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4269.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4270.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4271.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4272.jpg</picture>
+      </offer>
+      <offer id="8" available="true">
+        <name>Букет из 9 роз Explorer с эвкалиптом</name>
+        <price>1950</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-explorer-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>9 классических роз — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4287.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4288.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4284.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4283.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых хризантем Altay</name>
