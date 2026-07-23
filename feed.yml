@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-07-23 16:42">
+<yml_catalog date="2026-07-23 18:50">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -100,6 +100,16 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4586.jpg</picture>
       </offer>
       <offer id="9" available="true">
+        <name>Охапка кустовых роз Scarlet Dimension</name>
+        <price>5250</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-scarlet-dimension/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 15 кустовых роз — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1877.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1879.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1878.JPG</picture>
+      </offer>
+      <offer id="10" available="true">
         <name>Охапка подсолнухов</name>
         <price>2750</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-podsolnuhov/</url>
@@ -109,37 +119,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0949.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0948.jpg</picture>
       </offer>
-      <offer id="10" available="true">
-        <name>Охапка кустовых хризантем Altay</name>
-        <price>2450</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-altay-ru/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 9 кустовых хризантем — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4568.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4574.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4569.jpg</picture>
-      </offer>
       <offer id="11" available="true">
-        <name>Охапка классических роз Nina</name>
-        <price>2450</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-klassicheskih-roz-nina-ru/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 15 классических роз 50 см — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6168.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6170.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6169.JPG</picture>
-      </offer>
-      <offer id="12" available="true">
-        <name>Охапка кустовых хризантем Chic</name>
-        <price>2450</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-chic-ru/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 9 кустовых хризантем — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4557.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4562.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4558.jpg</picture>
-      </offer>
-      <offer id="13" available="true">
         <name>Охапка кустовых роз Fireworks</name>
         <price>1950</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-fireworks/</url>
@@ -148,6 +128,26 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0782.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0784.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0783.jpg</picture>
+      </offer>
+      <offer id="12" available="true">
+        <name>Охапка розовых маттиол</name>
+        <price>4350</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-rozovyh-mattiol-ru/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 15 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7407.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7409.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7408.jpg</picture>
+      </offer>
+      <offer id="13" available="true">
+        <name>Охапка кустовых роз Lady Bombastic с эвкалиптом</name>
+        <price>5950</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-lady-bombastic-s-evkaliptom-ru/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 15 кустовых роз с эвкалиптом — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1851.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1853.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1852.JPG</picture>
       </offer>
     </offers>
   </shop>
