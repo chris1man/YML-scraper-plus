@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-07-27 14:56">
+<yml_catalog date="2026-07-27 18:20">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,94 +13,82 @@
     </categories>
     <offers>
       <offer id="1" available="true">
-        <name>Букет из кустовых хризантем и гвоздик &quot;Вкус граната&quot;</name>
-        <price>2650</price>
-        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-hrizantem-i-gvozdik-vkus-granata/</url>
+        <name>Охапка гербер мини Sweetness</name>
+        <price>4890</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gerber-mini-sweetness-ru-2/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема Santini — 4 шт.
-Гвоздика одиночная — 7 шт.
-Фистация — 2 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6614.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6615.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6613.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6611.jpg</picture>
+        <description>Охапка из 25 гербер мини — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6828__1_.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6830.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6829.jpg</picture>
       </offer>
       <offer id="2" available="true">
-        <name>Охапка нутана</name>
-        <price>3950</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-nutana-ru/</url>
+        <name>Охапка гербер мини Sweetness</name>
+        <price>2990</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gerber-mini-sweetness-ru/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 9 нутанов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0995.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0991.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0996.jpg</picture>
+        <description>Охапка из 15 гербер мини — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6834.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6836.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6835.jpg</picture>
       </offer>
       <offer id="3" available="true">
-        <name>Охапка нутана</name>
-        <price>2550</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-nutana/</url>
+        <name>Охапка гербер мини Sweetness</name>
+        <price>1990</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gerber-mini-sweetness/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 5 нутанов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0993.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0997.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0994.jpg</picture>
+        <description>Охапка из 9 гербер мини — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6833.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6832.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6831.jpg</picture>
       </offer>
       <offer id="4" available="true">
-        <name>Охапка подсолнухов</name>
-        <price>2750</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-podsolnuhov/</url>
+        <name>Охапка эустомы Rosita Red</name>
+        <price>5850</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-eustomy-rosita-red-ru/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 9 подсолнухов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0947.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0949.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0948.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6785.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6791.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6790.jpg</picture>
       </offer>
       <offer id="5" available="true">
-        <name>Охапка кустовых роз Fireworks</name>
-        <price>5250</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-fireworks-ru/</url>
+        <name>Охапка эустомы Rosita Red</name>
+        <price>3150</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-eustomy-rosita-red/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 15 кустовых роз — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0779.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0780.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0781.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6782.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6789.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6788.jpg</picture>
       </offer>
       <offer id="6" available="true">
-        <name>Охапка кустовых роз Fireworks</name>
-        <price>1950</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-fireworks/</url>
+        <name>Охапка кустовых хризантем Santini</name>
+        <price>4750</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru-2/</url>
         <categoryId>1</categoryId>
-        <description>Охапка из 5 кустовых роз — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0782.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0784.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0783.jpg</picture>
+        <description>Охапка из 25 кустовых хризантем Santini — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6813.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6815.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6814.jpg</picture>
       </offer>
       <offer id="7" available="true">
-        <name>Букет из 3 белых кустовых хризантем с эвкалиптом</name>
-        <price>1950</price>
-        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-3-belyh-kustovyh-hrizantem-s-evkaliptom/</url>
+        <name>Охапка кустовых хризантем Santini</name>
+        <price>2950</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема кустовая — 3 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5272.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5273.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5270.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5274.jpg</picture>
+        <description>Охапка из 15 кустовых хризантем Santini — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6819.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6821.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6820.jpg</picture>
       </offer>
       <offer id="8" available="true">
-        <name>Букет из 5 белых кустовых хризантем с эвкалиптом</name>
-        <price>2650</price>
-        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-5-belyh-kustovyh-hrizantem-s-evkaliptom/</url>
+        <name>Охапка кустовых хризантем Santini</name>
+        <price>1950</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема кустовая — 5 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5266.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5268.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5265.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_5269.jpg</picture>
+        <description>Охапка из 9 кустовых хризантем Santini — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6825.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6827.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6826.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых роз Scarlet Dimension</name>
@@ -118,9 +106,9 @@
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-nutana/</url>
         <categoryId>2</categoryId>
         <description>Охапка из 5 нутанов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0993.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0997.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0994.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6779.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6781.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6780.jpg</picture>
       </offer>
       <offer id="11" available="true">
         <name>Охапка кустовых хризантем Altay</name>
@@ -148,9 +136,9 @@
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-nutana-ru/</url>
         <categoryId>2</categoryId>
         <description>Охапка из 9 нутанов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0995.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0991.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_0996.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6778.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6777.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6776.jpg</picture>
       </offer>
     </offers>
   </shop>
