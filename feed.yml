@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-08-15 14:28">
+<yml_catalog date="2026-08-15 14:57">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -26,7 +26,7 @@
       </offer>
       <offer id="2" available="true">
         <name>Букет из гвоздик &quot;Шелковое искушение&quot;</name>
-        <price>2550</price>
+        <price>2770</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-gvozdik/buket-iz-gvozdik-shelkovoe-iskushenie/</url>
         <categoryId>1</categoryId>
         <description>Гвоздика одиночная — 7 шт.
@@ -40,7 +40,7 @@
       </offer>
       <offer id="3" available="true">
         <name>Букет из 7 кустовых хризантем в кружевном оформлении</name>
-        <price>4450</price>
+        <price>4730</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-7-kustovyh-hrizantem-v-kruzhevnom-oformlenii/</url>
         <categoryId>1</categoryId>
         <description>Хризантема кустовая — 7 шт.
