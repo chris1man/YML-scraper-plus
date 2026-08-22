@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-08-22 12:59">
+<yml_catalog date="2026-08-22 13:49">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -111,16 +111,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4569.jpg</picture>
       </offer>
       <offer id="11" available="true">
-        <name>Охапка бело-розовой эустомы Краснодар</name>
-        <price>4550</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belo-rozovoy-eustomy-krasnodar/</url>
-        <categoryId>2</categoryId>
-        <description>Охапка из 11 эустом Краснодар — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7395.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7397.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7396.jpg</picture>
-      </offer>
-      <offer id="12" available="true">
         <name>Охапка кустовых роз Scarlet Dimension с эвкалиптом</name>
         <price>2750</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-krasnyh-kustovyh-roz-scarlet-dimension-s-evkaliptom/</url>
@@ -130,7 +120,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1884.JPG</picture>
         <picture>https://maki-tomsk.ru/images/detailed/28/IMG_1883.JPG</picture>
       </offer>
-      <offer id="13" available="true">
+      <offer id="12" available="true">
         <name>Охапка кустовых хризантем Santini</name>
         <price>2950</price>
         <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru-4/</url>
@@ -139,6 +129,17 @@
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6801.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6803.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6802.jpg</picture>
+      </offer>
+      <offer id="13" available="true">
+        <name>Сет «Ягодный вихрь»</name>
+        <price>3150</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/sety/set-yagodnyy-vihr/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 15 одиночных гвоздик — 1 шт.
+Охапка из 5 веток гиперикума — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6659.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6661_6u60-t5.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6660.jpg</picture>
       </offer>
     </offers>
   </shop>
