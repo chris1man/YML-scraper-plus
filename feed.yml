@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-08-26 12:53">
+<yml_catalog date="2026-08-26 13:44">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -14,7 +14,7 @@
     <offers>
       <offer id="1" available="true">
         <name>Букет на 1 сентября №20</name>
-        <price>2390</price>
+        <price>2000</price>
         <url>https://maki-tomsk.ru/bukety/buket-blagodarnost/buket-na-1-sentyabrya-20/</url>
         <categoryId>1</categoryId>
         <description>Гвоздика одиночная — 3 шт.
@@ -29,7 +29,7 @@
       </offer>
       <offer id="2" available="true">
         <name>Букет на 1 сентября №19</name>
-        <price>2000</price>
+        <price>1590</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-gortenziy/buket-na-1-sentyabrya-19/</url>
         <categoryId>1</categoryId>
         <description>Гортензия Колумбия — 1 шт.
@@ -42,7 +42,7 @@
       </offer>
       <offer id="3" available="true">
         <name>Букет на 1 сентября №18</name>
-        <price>2300</price>
+        <price>1850</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-alstromeriy/buket-na-1-sentyabrya-18/</url>
         <categoryId>1</categoryId>
         <description>Альстромерия — 5 шт.
@@ -54,7 +54,7 @@
       </offer>
       <offer id="4" available="true">
         <name>Букет на 1 сентября №12</name>
-        <price>2500</price>
+        <price>1850</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-12/</url>
         <categoryId>1</categoryId>
         <description>Хризантема кустовая (крашеная) — 3 шт.
@@ -67,7 +67,7 @@
       </offer>
       <offer id="5" available="true">
         <name>Букет на 1 сентября №11</name>
-        <price>2100</price>
+        <price>1690</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-11/</url>
         <categoryId>1</categoryId>
         <description>Хризантема кустовая (крашеная) — 3 шт.
@@ -80,7 +80,7 @@
       </offer>
       <offer id="6" available="true">
         <name>Букет на 1 сентября №10</name>
-        <price>2100</price>
+        <price>1690</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-10/</url>
         <categoryId>1</categoryId>
         <description>Хризантема кустовая (крашеная) — 3 шт.
