@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-08-29 21:42">
+<yml_catalog date="2026-08-30 01:11">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,19 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет на 1 сентября №32</name>
+        <price>2050</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-georgin/buket-na-1-sentyabrya-32/</url>
+        <categoryId>1</categoryId>
+        <description>Георгин — 3 шт.
+Рубр — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3966.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3973.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3971.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3976.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Букет на 1 сентября №31</name>
         <price>1950</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-31/</url>
@@ -25,7 +38,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3876.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3877.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Букет на 1 сентября №30</name>
         <price>2240</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-na-1-sentyabrya-30/</url>
@@ -41,7 +54,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_1931_0q9w-e2.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_1947.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Букет на 1 сентября №29</name>
         <price>1950</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-29/</url>
@@ -55,7 +68,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3869.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3871.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Букет на 1 сентября №28</name>
         <price>2350</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/buket-na-1-sentyabrya-28/</url>
@@ -70,7 +83,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3850.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3852.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Букет на 1 сентября №27</name>
         <price>2350</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/buket-na-1-sentyabrya-27/</url>
@@ -85,7 +98,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3845.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3847.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Букет на 1 сентября №26</name>
         <price>2350</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-26/</url>
@@ -98,7 +111,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3886.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3882.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Букет на 1 сентября №25</name>
         <price>2350</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-na-1-sentyabrya-25/</url>
@@ -110,20 +123,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3879.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3880.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3881.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Букет на 1 сентября №23</name>
-        <price>2390</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-gerber/buket-na-1-sentyabrya-23/</url>
-        <categoryId>1</categoryId>
-        <description>Гербера мини — 5 шт.
-Рубр — 2 шт.
-Фистация — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3833.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3834.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3831.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3835.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка подсолнухов</name>
