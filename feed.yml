@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-09-08 19:55">
+<yml_catalog date="2026-09-09 00:05">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,21 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Сборный букет &quot;Сентябрьская нежность&quot;</name>
+        <price>1540</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-sentyabrskaya-nezhnost/</url>
+        <categoryId>1</categoryId>
+        <description>Хризантема кустовая (крашеная) — 1 шт.
+Подсолнух — 1 шт.
+Рубр — 1 шт.
+Фистация — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4582.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4584.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4581.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4585.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Сборный букет &quot;Лавандовое солнце&quot;</name>
         <price>1540</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-lavandovoe-solnce/</url>
@@ -27,7 +42,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4487.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4489.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Сборный букет &quot;Осенний свет&quot;</name>
         <price>1510</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-osenniy-svet/</url>
@@ -42,7 +57,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4575.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4580.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Сборный букет &quot;Перламутровый восторг&quot;</name>
         <price>9530</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-perlamutrovyy-vostorg/</url>
@@ -57,7 +72,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4445.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4444.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Букет из 15 роз Paloma в оформлении</name>
         <price>2950</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-roz-paloma-v-oformlenii/</url>
@@ -69,7 +84,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4819.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4816.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Букет из 25 роз Mondial с эвкалиптом</name>
         <price>5000</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-roz-mondial-s-evkaliptom/</url>
@@ -82,7 +97,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4827.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_4825.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Сумочка на 1 сентября №40</name>
         <price>2590</price>
         <url>https://maki-tomsk.ru/kompozicii/sumochka-na-1-sentyabrya-40/</url>
@@ -98,7 +113,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2164.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2159.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Сумочка на 1 сентября №39</name>
         <price>2590</price>
         <url>https://maki-tomsk.ru/kompozicii/sumochka-na-1-sentyabrya-39/</url>
@@ -114,24 +129,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2173.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2168.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2169.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Сумочка на 1 сентября №38</name>
-        <price>2890</price>
-        <url>https://maki-tomsk.ru/kompozicii/sumochka-na-1-sentyabrya-38/</url>
-        <categoryId>1</categoryId>
-        <description>Хризантема Santini — 3 шт.
-Зелень — 1 шт.
-Колос — 5 шт.
-Гербера мини — 3 шт.
-Гвоздика одиночная — 3 шт.
-Флористическая пена (1/2) — 1 шт.
-Сумка флористическая — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2191_et61-up.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2185.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2195.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2190.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/19/IMG_2197.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка классических роз Carousel</name>
