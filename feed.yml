@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-09-16 12:13">
+<yml_catalog date="2026-09-16 17:01">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,19 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 3 одиночных хризантем Bigoudi Purple с эвкалиптом</name>
+        <price>2170</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-hrizantem/buket-iz-3-odinochnyh-hrizantem-bigoudi-purple-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>Хризантема Бигуди — 3 шт.
+Зелень — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6068.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6071.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6066.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6072.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Букет из 25 роз Deep Purple в оформлении</name>
         <price>4500</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-roz-deep-purple-v-oformlenii/</url>
@@ -24,7 +37,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6290.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6288.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Букет из 25 роз Explorer</name>
         <price>4000</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-roz-explorer/</url>
@@ -35,7 +48,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6275.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6279.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Букет из 25 роз Explorer в оформлении</name>
         <price>4500</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-roz-explorer-v-oformlenii/</url>
@@ -47,7 +60,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6281.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6286.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Букет из 25 роз Carousel в оформлении</name>
         <price>4500</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-roz-carousel-v-oformlenii/</url>
@@ -59,7 +72,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6320.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6318.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Букет из 21 розы Red Panther в оформлении</name>
         <price>3860</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-rozy-red-panther-v-oformlenii/</url>
@@ -71,7 +84,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6454.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6453.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Букет из 21 пионовидной розы Queens Crown в оформлении</name>
         <price>5120</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-pionovidnoy-rozy-queens-crown-v-oformlenii/</url>
@@ -83,7 +96,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6469.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6470.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Букет из 21 пионовидной розы Pink Expression в оформлении</name>
         <price>5120</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-pionovidnoy-rozy-pink-expression-v-oformlenii/</url>
@@ -94,19 +107,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6390.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6387.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6388.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Букет из 21 розы Mondial с эвкалиптом</name>
-        <price>4360</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-21-rozy-mondial-s-evkaliptom/</url>
-        <categoryId>1</categoryId>
-        <description>21 классическая роза 50 см. АКЦИЯ — 1 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6795.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6794_5nvu-n8.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6791.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_6792.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых роз Peach Dimension с эвкалиптом</name>
