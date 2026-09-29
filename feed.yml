@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-09-29 09:18">
+<yml_catalog date="2026-09-29 15:41">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,18 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 101 пионовидной розы Candlelight в оформлении</name>
+        <price>19990</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-101-pionovidnoy-rozy-candlelight-v-oformlenii/</url>
+        <categoryId>1</categoryId>
+        <description>101  пионовидная роза АКЦИЯ — 1 шт.
+Оформление №12 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7941.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7951.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7943.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7942.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Букет из 15 пионовидных роз Candlelight в оформлении</name>
         <price>4000</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-candlelight-v-oformlenii/</url>
@@ -24,7 +36,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7696.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7698.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Букет из 15 пионовидных роз Candlelight с эвкалиптом</name>
         <price>4600</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-candlelight-s-evkaliptom/</url>
@@ -37,7 +49,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7667.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7669.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Букет из 13 пионовидных роз Candlelight в оформлении</name>
         <price>3650</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-13-pionovidnyh-roz-candlelight-v-oformlenii/</url>
@@ -49,7 +61,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7685.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7691.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Букет из 13 пионовидных роз Candlelight с эвкалиптом</name>
         <price>4250</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-13-pionovidnyh-roz-candlelight-s-evkaliptom/</url>
@@ -62,7 +74,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7682.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7684.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Букет из 11 пионовидных роз Candlelight с эвкалиптом</name>
         <price>3750</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-pionovidnyh-roz-candlelight-s-evkaliptom/</url>
@@ -75,7 +87,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7675.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7677.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Букет из 9 пионовидных роз Candlelight в оформлении</name>
         <price>2650</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-pionovidnyh-roz-candlelight-v-oformlenii/</url>
@@ -87,7 +99,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7656.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7661.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Букет из 51 розы Hermosa в оформлении</name>
         <price>8250</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-51-rozy-hermosa-v-oformlenii/</url>
@@ -98,17 +110,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7751.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7749.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7747.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Букет из 51 розы Nina</name>
-        <price>7650</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-51-rozy-nina/</url>
-        <categoryId>1</categoryId>
-        <description>51 классическая роза 50 см. АКЦИЯ — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7769.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7766.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7762.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7764.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка нутана</name>
