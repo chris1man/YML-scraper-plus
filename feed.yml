@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-10-13 15:25">
+<yml_catalog date="2026-10-13 23:25">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -118,43 +118,44 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7691.jpg</picture>
       </offer>
       <offer id="9" available="true">
-        <name>Охапка эустомы Rosita Red</name>
-        <price>3150</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-eustomy-rosita-red/</url>
+        <name>Охапка эустомы Rosita White</name>
+        <price>2730</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-eustomy-rosita-white/</url>
         <categoryId>2</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6782.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6789.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6788.jpg</picture>
+        <description>Охапка из 7 эустом Rosita — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6520.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6518.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6519.JPG</picture>
       </offer>
       <offer id="10" available="true">
-        <name>Охапка альстромерий Concorde</name>
-        <price>2150</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-concorde/</url>
+        <name>Охапка кустовых хризантем Santini</name>
+        <price>2950</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru-4/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 9 альстромерий — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4801.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4803.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4802.JPG</picture>
+        <description>Охапка из 15 кустовых хризантем Santini — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6801.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6803.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6802.jpg</picture>
       </offer>
       <offer id="11" available="true">
-        <name>Охапка гвоздик Toulouse</name>
-        <price>1800</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gvozdik-toulouse/</url>
+        <name>Охапка эустомы Alissa Pink</name>
+        <price>2730</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-eustomy-alissa-pink/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 15 одиночных гвоздик — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4812.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4814.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4813.JPG</picture>
+        <description>Охапка из 7 эустом Alissa — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4824.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4826.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_4825.JPG</picture>
       </offer>
       <offer id="12" available="true">
-        <name>Охапка нутана</name>
-        <price>1950</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-nutana/</url>
+        <name>Охапка классических роз Explorer</name>
+        <price>3250</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-klassicheskih-roz-explorer/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 5 нутанов — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6779.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6781.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6780.jpg</picture>
+        <description>Охапка из 25 классических роз 50 см — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3592.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3607.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_3584.JPG</picture>
       </offer>
       <offer id="13" available="true">
         <name>Охапка эустомы Alissa White</name>
