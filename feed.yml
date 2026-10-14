@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-10-14 07:36">
+<yml_catalog date="2026-10-14 12:21">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -130,12 +130,12 @@
       <offer id="10" available="true">
         <name>Охапка кустовых хризантем Santini</name>
         <price>2950</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru-4/</url>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru/</url>
         <categoryId>2</categoryId>
         <description>Охапка из 15 кустовых хризантем Santini — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6801.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6803.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6802.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6819.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6821.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6820.jpg</picture>
       </offer>
       <offer id="11" available="true">
         <name>Охапка эустомы Alissa Pink</name>
