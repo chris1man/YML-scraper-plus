@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-10-21 07:55">
+<yml_catalog date="2026-10-21 12:44">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -120,24 +120,24 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9621.jpg</picture>
       </offer>
       <offer id="9" available="true">
-        <name>Охапка эустомы Rosita White</name>
-        <price>2730</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-eustomy-rosita-white/</url>
+        <name>Охапка кустовых роз Jana</name>
+        <price>2050</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-roz-jana/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 7 эустом Rosita — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6520.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6518.JPG</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6519.JPG</picture>
+        <description>Охапка из 5 кустовых роз — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_2663_1xzx-be.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_2665.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_2664.jpg</picture>
       </offer>
       <offer id="10" available="true">
-        <name>Охапка кустовых хризантем Santini</name>
-        <price>2950</price>
-        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-kustovyh-hrizantem-santini-ru/</url>
+        <name>Охапка сиреневых маттиол</name>
+        <price>2310</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-sirenevyh-mattiol/</url>
         <categoryId>2</categoryId>
-        <description>Охапка из 15 кустовых хризантем Santini — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6819.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6821.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6820.jpg</picture>
+        <description>Охапка из 7 маттиол — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7401.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7403.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_7402.jpg</picture>
       </offer>
       <offer id="11" available="true">
         <name>Охапка эустомы Alissa Pink</name>
