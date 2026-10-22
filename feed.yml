@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-10-22 14:08">
+<yml_catalog date="2026-10-22 20:01">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -26,7 +26,7 @@
       </offer>
       <offer id="2" available="true">
         <name>Букет из кустовых роз и альстромерий &quot;Бежевый сонет&quot;</name>
-        <price>2490</price>
+        <price>2500</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-roz-i-alstromeriy-bezhevyy-sonet/</url>
         <categoryId>1</categoryId>
         <description>Альстромерия — 3 шт.
@@ -40,7 +40,7 @@
       </offer>
       <offer id="3" available="true">
         <name>Букет из кустовых хризантем и альстромерий &quot;Хрустальный мотив&quot;</name>
-        <price>2150</price>
+        <price>2510</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-hrizantem-i-alstromeriy-hrustalnyy-motiv/</url>
         <categoryId>1</categoryId>
         <description>Хризантема кустовая — 2 шт.
