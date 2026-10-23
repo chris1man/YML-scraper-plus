@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-10-23 07:34">
+<yml_catalog date="2026-10-23 12:19">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -25,20 +25,6 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1855.jpg</picture>
       </offer>
       <offer id="2" available="true">
-        <name>Букет из кустовых роз и альстромерий &quot;Бежевый сонет&quot;</name>
-        <price>2500</price>
-        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-roz-i-alstromeriy-bezhevyy-sonet/</url>
-        <categoryId>1</categoryId>
-        <description>Альстромерия — 3 шт.
-Кустовая роза premium — 2 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1647.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1649.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1645.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1646.jpg</picture>
-      </offer>
-      <offer id="3" available="true">
         <name>Букет из кустовых хризантем и альстромерий &quot;Хрустальный мотив&quot;</name>
         <price>2510</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-hrizantem-i-alstromeriy-hrustalnyy-motiv/</url>
@@ -52,7 +38,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1634.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_1632.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="3" available="true">
         <name>Букет из 101 розы Mandala</name>
         <price>14645</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-101-rozy-mandala/</url>
@@ -63,7 +49,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3058.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_3073.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="4" available="true">
         <name>Букет из одиночной хризантемы и гвоздик &quot;Пудровый вернисаж&quot;</name>
         <price>2340</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-odinochnoy-hrizantemy-i-gvozdik-pudrovyy-vernisazh/</url>
@@ -77,7 +63,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9644.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9650.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="5" available="true">
         <name>Букет из одиночной хризантемы и гвоздик &quot;Дымчатый вернисаж&quot;</name>
         <price>2340</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-odinochnoy-hrizantemy-i-gvozdik-dymchatyy-vernisazh/</url>
@@ -91,7 +77,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9639.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9642.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="6" available="true">
         <name>Сборный букет &quot;Ванильный жемчуг&quot;</name>
         <price>2600</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-vanilnyy-zhemchug/</url>
@@ -105,7 +91,7 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9624.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9623.jpg</picture>
       </offer>
-      <offer id="8" available="true">
+      <offer id="7" available="true">
         <name>Сборный букет &quot;Ноты винтажа&quot;</name>
         <price>2600</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-noty-vintazha/</url>
@@ -118,6 +104,18 @@
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9622.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9620.jpg</picture>
         <picture>https://maki-tomsk.ru/images/detailed/31/IMG_9621.jpg</picture>
+      </offer>
+      <offer id="8" available="true">
+        <name>Букет из 101 пионовидной розы Candlelight в оформлении</name>
+        <price>19990</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-101-pionovidnoy-rozy-candlelight-v-oformlenii/</url>
+        <categoryId>1</categoryId>
+        <description>101  пионовидная роза АКЦИЯ — 1 шт.
+Оформление №12 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7941.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7951.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7943.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7942.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых роз Jana</name>
