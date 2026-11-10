@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-10 00:37">
+<yml_catalog date="2026-11-10 07:51">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -8,22 +8,159 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     <categories>
-      <category id="1">Тестовая категория</category>
+      <category id="1">Популярное</category>
+      <category id="2">Охапки</category>
     </categories>
     <offers>
       <offer id="1" available="true">
-        <name>Тестовый товар 1</name>
-        <price>100</price>
-        <url>https://example.com/test1</url>
+        <name>Букет из 11 желтых роз с эвкалиптом</name>
+        <price>2350</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-11-zheltyh-roz-s-evkaliptom/</url>
         <categoryId>1</categoryId>
-        <description>Тестовое описание</description>
+        <description>11 классических роз 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5836.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5834.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5831.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5830.jpg</picture>
       </offer>
       <offer id="2" available="true">
-        <name>Тестовый товар 2</name>
-        <price>200</price>
-        <url>https://example.com/test2</url>
+        <name>Букет из 25 желтых роз с эвкалиптом</name>
+        <price>3950</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-25-zheltyh-roz-s-evkaliptom/</url>
         <categoryId>1</categoryId>
-        <description>Тестовое описание 2</description>
+        <description>25 классических роз 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5796.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5794.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5789.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5792.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Букет из 15 желтых роз с эвкалиптом</name>
+        <price>2800</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-zheltyh-roz-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>15 классических роз 50 см. АКЦИЯ — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5773.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5778.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5774.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5781.jpg</picture>
+      </offer>
+      <offer id="4" available="true">
+        <name>Букет из 7 желтых роз с эвкалиптом</name>
+        <price>1750</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-7-zheltyh-roz-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>7 классических роз — 1 шт.
+Зелень — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5782.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5786.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5784.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5783.jpg</picture>
+      </offer>
+      <offer id="5" available="true">
+        <name>Букет из 51 желтой розы в оформлении</name>
+        <price>6950</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-51-zheltoy-rozy-v-oformlenii/</url>
+        <categoryId>1</categoryId>
+        <description>51 классическая роза 50 см. АКЦИЯ — 1 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5615.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5618.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5620.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5622.jpg</picture>
+      </offer>
+      <offer id="6" available="true">
+        <name>Букет из 51 сиреневой розы в оформлении</name>
+        <price>6950</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-51-sirenevoy-rozy-v-oformlenii/</url>
+        <categoryId>1</categoryId>
+        <description>51 классическая роза Россия 50 см — 1 шт.
+Оформление №3 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5681_nll3-ju.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5684_jnnn-aa.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5685_cxny-gs.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5687_pav8-g6.jpg</picture>
+      </offer>
+      <offer id="7" available="true">
+        <name>Букет из 35 сиреневых роз в оформлении</name>
+        <price>4950</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-35-sirenevyh-roz-v-oformlenii/</url>
+        <categoryId>1</categoryId>
+        <description>35 классических роз Россия 50 см — 1 шт.
+Оформление № 2 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5653.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5661.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5650.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5659.jpg</picture>
+      </offer>
+      <offer id="8" available="true">
+        <name>Букет из 15 сиреневых роз с эвкалиптом</name>
+        <price>2800</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-sirenevyh-roz-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <description>15 классических роз Россия 50 см — 1 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5634.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5638.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5637.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5635_0ipq-l6.jpg</picture>
+      </offer>
+      <offer id="9" available="true">
+        <name>Охапка гвоздик Kiwi Mellow</name>
+        <price>2650</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gvozdik-kiwi-mellow/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 15 гвоздик Kiwi Mellow — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_1012.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_1011.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_1013.jpg</picture>
+      </offer>
+      <offer id="10" available="true">
+        <name>Охапка коралловых пионов Coral Charm</name>
+        <price>5250</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-iz-korallovyh-pionov-coral-charm/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 7 пионов — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6677.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6679.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_6678.jpg</picture>
+      </offer>
+      <offer id="11" available="true">
+        <name>Охапка гортензий Verena Purple</name>
+        <price>5550</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-gortenziy-verena-purple-ru/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 11 гортензий Verena — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6499.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6502.JPG</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/28/IMG_6501.JPG</picture>
+      </offer>
+      <offer id="12" available="true">
+        <name>Охапка альстромерий Casanova</name>
+        <price>2150</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-alstromeriy-casanova/</url>
+        <categoryId>2</categoryId>
+        <description>Охапка из 9 альстромерий — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6708.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6710.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/29/IMG_6709.jpg</picture>
+      </offer>
+      <offer id="13" available="true">
+        <name>​Охапка белых протей</name>
+        <price>5990</price>
+        <url>https://maki-tomsk.ru/cvety-ohapkoy/ohapka-belyh-protey/</url>
+        <categoryId>2</categoryId>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4578.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4582.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/30/IMG_4579.jpg</picture>
       </offer>
     </offers>
   </shop>
