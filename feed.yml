@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-11 15:53">
+<yml_catalog date="2026-11-11 23:55">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -17,56 +17,56 @@
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-blagodarnyy-shepot/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/10.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/10.png</picture>
       </offer>
       <offer id="2" available="true">
         <name>Открытка &quot;Навсегда в сердце&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-navsegda-v-serdce/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/9.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/9.png</picture>
       </offer>
       <offer id="3" available="true">
         <name>Открытка &quot;Ритм признания&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-ritm-priznaniya/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/8.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/8.png</picture>
       </offer>
       <offer id="4" available="true">
         <name>Открытка &quot;Полевой привет&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-polevoy-privet/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/7.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/7.png</picture>
       </offer>
       <offer id="5" available="true">
         <name>Открытка &quot;Бесконечный мир любви&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-beskonechnyy-mir-lyubvi/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/6.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/6.png</picture>
       </offer>
       <offer id="6" available="true">
         <name>Открытка &quot;Безопасная гавань&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-bezopasnaya-gavan/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/5.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/5.png</picture>
       </offer>
       <offer id="7" available="true">
         <name>Открытка &quot;Истоки вдохновения&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-istoki-vdohnoveniya/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/4.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/4.png</picture>
       </offer>
       <offer id="8" available="true">
         <name>Открытка &quot;Чистое признание&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-chistoe-priznanie/</url>
         <categoryId>1</categoryId>
-        <picture>https://maki-tomsk.ru/images/detailed/31/3.png</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/3.png</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых хризантем Santini</name>
