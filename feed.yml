@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-11 08:43">
+<yml_catalog date="2026-11-11 15:53">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,107 +13,60 @@
     </categories>
     <offers>
       <offer id="1" available="true">
-        <name>Букет-комплимент &quot;Солнечный зайчик&quot;</name>
-        <price>2360</price>
-        <url>https://maki-tomsk.ru/bukety/buket-blagodarnost/buket-kompliment-solnechnyy-zaychik/</url>
+        <name>Открытка &quot;Благодарный шёпот&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-blagodarnyy-shepot/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема кустовая — 3 шт.
-Матрикария — 2 шт.
-Стифа — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7615.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7613.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7609.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_7610.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/10.png</picture>
       </offer>
       <offer id="2" available="true">
-        <name>Букет из кустовых хризантем с ваксфлауэром</name>
-        <price>1860</price>
-        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-kustovyh-hrizantem-s-vaksflauerom-ru/</url>
+        <name>Открытка &quot;Навсегда в сердце&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-navsegda-v-serdce/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема кустовая — 3 шт.
-Ваксфлауэр — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5403.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5404_0zk8-qj.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5402_qki2-y4.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5401.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/9.png</picture>
       </offer>
       <offer id="3" available="true">
-        <name>Букет-комплимент &quot;Жемчужный прованс&quot;</name>
-        <price>1770</price>
-        <url>https://maki-tomsk.ru/bukety/buket-blagodarnost/buket-kompliment-zhemchuzhnyy-provans/</url>
+        <name>Открытка &quot;Ритм признания&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-ritm-priznaniya/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема Vienna — 1 шт.
-Ваксфлауэр — 2 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5388.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5390.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5389_86si-w3.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5391.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/8.png</picture>
       </offer>
       <offer id="4" available="true">
-        <name>Букет из 7 ярко-персиковых гербер Pomponi с эвкалиптом</name>
-        <price>2590</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-gerber/buket-iz-7-yarko-persikovyh-gerber-pomponi-s-evkaliptom-ru/</url>
+        <name>Открытка &quot;Полевой привет&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-polevoy-privet/</url>
         <categoryId>1</categoryId>
-        <description>Гербера Помпони — 7 шт.
-Зелень — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5413.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5414_3q29-jo.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5412.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5415.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/7.png</picture>
       </offer>
       <offer id="5" available="true">
-        <name>Букет из 7 пурпурных гербер Pomponi с эвкалиптом</name>
-        <price>2590</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-gerber/buket-iz-7-purpurnyh-gerber-pomponi-s-evkaliptom/</url>
+        <name>Открытка &quot;Бесконечный мир любви&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-beskonechnyy-mir-lyubvi/</url>
         <categoryId>1</categoryId>
-        <description>Гербера Помпони — 7 шт.
-Зелень — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5408_dft7-et.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5409.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5407.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5410_5rpk-f0.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/6.png</picture>
       </offer>
       <offer id="6" available="true">
-        <name>Букет из кустовых хризантем &quot;Лавандовый сироп&quot;</name>
-        <price>4850</price>
-        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-kustovyh-hrizantem-lavandovyy-sirop/</url>
+        <name>Открытка &quot;Безопасная гавань&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-bezopasnaya-gavan/</url>
         <categoryId>1</categoryId>
-        <description>Хризантема кустовая (крашеная) — 15 шт.
-Оформление №3 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5337.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5343.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5339.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/31/IMG_5344.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/5.png</picture>
       </offer>
       <offer id="7" available="true">
-        <name>Букет из 101 розы Full monty в оформлении</name>
-        <price>15445</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-101-rozy-full-monty-v-oformlenii/</url>
+        <name>Открытка &quot;Истоки вдохновения&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-istoki-vdohnoveniya/</url>
         <categoryId>1</categoryId>
-        <description>101 классическая роза 50 см. АКЦИЯ — 1 шт.
-Оформление №12 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5358.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5361.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5362.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5359.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/4.png</picture>
       </offer>
       <offer id="8" available="true">
-        <name>Букет из 9 роз Deep Purple с эвкалиптом</name>
-        <price>2410</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-deep-purple-s-evkaliptom/</url>
+        <name>Открытка &quot;Чистое признание&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-chistoe-priznanie/</url>
         <categoryId>1</categoryId>
-        <description>9 классических роз — 1 шт.
-Зелень — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_3842.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_3840_he59-vu.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_3837_tp8j-3y.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_3836.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/31/3.png</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых хризантем Santini</name>
