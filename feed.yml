@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-13 15:06">
+<yml_catalog date="2026-11-13 23:31">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,18 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 5 французских солнечных роз</name>
+        <price>2350</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-5-francuzskih-solnechnyh-roz/</url>
+        <categoryId>1</categoryId>
+        <description>Вывернутая роза — 5 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9227.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9231.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9228.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9230.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Букет из 15 пионовидных роз Priscilla в оформлении сафари</name>
         <price>4400</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-priscilla-v-oformlenii-safari/</url>
@@ -24,7 +36,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6052.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6055.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Букет из 15 пионовидных роз Kahala в оформлении сафари</name>
         <price>4400</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-kahala-v-oformlenii-safari/</url>
@@ -36,7 +48,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6044.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6045.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Букет из 11 терракотовых кустовых хризантем SANTINI</name>
         <price>2590</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-11-terrakotovyh-kustovyh-hrizantem-santini/</url>
@@ -48,7 +60,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5975.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5978.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Букет из 11 сливовых кустовых хризантем SANTINI</name>
         <price>2590</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-11-slivovyh-kustovyh-hrizantem-santini/</url>
@@ -60,7 +72,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5981.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5985.jpg</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Букет из 11 белых кустовых хризантем SANTINI</name>
         <price>2590</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-11-belyh-kustovyh-hrizantem-santini/</url>
@@ -72,7 +84,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5971.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5973.jpg</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Букет из 11 бордовых кустовых хризантем SANTINI</name>
         <price>2590</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-11-bordovyh-kustovyh-hrizantem-santini/</url>
@@ -84,7 +96,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5961.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5966.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Букет из кустовых хризантем и гвоздик &quot;Пурпурный аккорд&quot;</name>
         <price>2510</price>
         <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-hrizantem-i-gvozdik-purpurnyy-akkord/</url>
@@ -97,20 +109,6 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6002.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6001.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6003.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Букет из кустовых хризантем и гвоздик &quot;Гранатовый атлас&quot;</name>
-        <price>2510</price>
-        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-kustovyh-hrizantem-i-gvozdik-granatovyy-atlas/</url>
-        <categoryId>1</categoryId>
-        <description>Гвоздика одиночная — 5 шт.
-Хризантема Santini — 4 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5993.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5996.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5994.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5997.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Охапка кустовых хризантем Santini</name>
