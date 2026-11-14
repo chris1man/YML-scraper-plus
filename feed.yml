@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-14 23:06">
+<yml_catalog date="2026-11-15 03:47">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -19,10 +19,10 @@
         <categoryId>1</categoryId>
         <description>Вывернутая роза — 5 шт.
 Оформление №11 — 1 шт.</description>
-        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9227.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9231.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9228.jpg</picture>
-        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_9230.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9227.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9231.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9228.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9230.jpg</picture>
       </offer>
       <offer id="2" available="true">
         <name>Букет из 15 пионовидных роз Priscilla в оформлении сафари</name>
