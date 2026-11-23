@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-23 09:55">
+<yml_catalog date="2026-11-23 18:48">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,58 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Сборная композиция в сумочке &quot;Уютный шарм&quot;</name>
+        <price>2500</price>
+        <url>https://maki-tomsk.ru/kompozicii/cvety-v-sumochkah/sbornaya-kompoziciya-v-sumochke-uyutnyy-sharm/</url>
+        <categoryId>1</categoryId>
+        <description>Гербера мини — 1 шт.
+Хризантема кустовая — 1 шт.
+Хризантема Santini — 1 шт.
+Кустовая роза premium — 1 шт.
+Скимия RED — 1 шт.
+Зелень — 1 шт.
+Хлопок искусственный — 1 шт.
+Флористическая пена — 1 шт.
+Сумка №2 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7562.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7563.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7560.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7564.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
+        <name>Сборная композиция в сумочке &quot;Нежный мотив&quot;</name>
+        <price>2500</price>
+        <url>https://maki-tomsk.ru/kompozicii/cvety-v-sumochkah/sbornaya-kompoziciya-v-sumochke-nezhnyy-motiv/</url>
+        <categoryId>1</categoryId>
+        <description>Роза классическая — 1 шт.
+Хризантема кустовая — 1 шт.
+Хризантема Santini — 1 шт.
+Кустовая роза premium — 1 шт.
+Скимия RED — 1 шт.
+Зелень — 1 шт.
+Хлопок искусственный — 1 шт.
+Флористическая пена — 1 шт.
+Сумка №2 — 1 шт.</description>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7565.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7568.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7566.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_7569.jpg</picture>
+      </offer>
+      <offer id="3" available="true">
+        <name>Открытка &quot;Маме&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-mame-ru/</url>
+        <categoryId>1</categoryId>
+        <picture>https://maki-tomsk.ru/images/detailed/32/2_j7uz-2f.png</picture>
+      </offer>
+      <offer id="4" available="true">
+        <name>Открытка &quot;Маме&quot;</name>
+        <price>40</price>
+        <url>https://maki-tomsk.ru/otkrytki/otkrytka-mame/</url>
+        <categoryId>1</categoryId>
+        <picture>https://maki-tomsk.ru/images/detailed/32/1_5p1c-pe.png</picture>
+      </offer>
+      <offer id="5" available="true">
         <name>Букет из 51 розы Be sweet 70 см</name>
         <price>14790</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-51-rozy-be-sweet-70-sm/</url>
@@ -23,9 +75,9 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9798.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9796.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="6" available="true">
         <name>Букет из 15 пионовидных роз Princess Crown в оформлении</name>
-        <price>4000</price>
+        <price>3550</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-princess-crown-v-oformlenii/</url>
         <categoryId>1</categoryId>
         <description>15 пионовидных роз АКЦИЯ — 1 шт.
@@ -35,7 +87,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6880.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6886.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="7" available="true">
         <name>Букет из 5 французских алых роз</name>
         <price>2350</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-5-francuzskih-alyh-roz/</url>
@@ -47,7 +99,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6933.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6937.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="8" available="true">
         <name>Букет из 5 французских нежно-розовых роз</name>
         <price>2350</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-5-francuzskih-nezhno-rozovyh-roz/</url>
@@ -58,54 +110,6 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6742.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6739.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6743.jpg</picture>
-      </offer>
-      <offer id="5" available="true">
-        <name>Букет из 5 французских солнечных роз</name>
-        <price>2350</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-5-francuzskih-solnechnyh-roz/</url>
-        <categoryId>1</categoryId>
-        <description>Вывернутая роза — 5 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9227.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9231.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9228.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9230.jpg</picture>
-      </offer>
-      <offer id="6" available="true">
-        <name>Букет из 15 пионовидных роз Priscilla в оформлении сафари</name>
-        <price>4400</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-priscilla-v-oformlenii-safari/</url>
-        <categoryId>1</categoryId>
-        <description>15 пионовидных роз АКЦИЯ — 1 шт.
-Оформление №12 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6051.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6054.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6052.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6055.jpg</picture>
-      </offer>
-      <offer id="7" available="true">
-        <name>Букет из 15 пионовидных роз Kahala в оформлении сафари</name>
-        <price>4400</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-kahala-v-oformlenii-safari/</url>
-        <categoryId>1</categoryId>
-        <description>15 пионовидных роз АКЦИЯ — 1 шт.
-Оформление №12 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6046.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6048.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6044.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_6045.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Букет из 11 терракотовых кустовых хризантем SANTINI</name>
-        <price>2590</price>
-        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-11-terrakotovyh-kustovyh-hrizantem-santini/</url>
-        <categoryId>1</categoryId>
-        <description>Хризантема Santini — 11 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5976.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5977.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5975.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5978.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Сборный букет &quot;Перламутровый восторг&quot;</name>
@@ -167,7 +171,7 @@
       </offer>
       <offer id="13" available="true">
         <name>Сборный букет &quot;Пряная карамель&quot;</name>
-        <price>8490</price>
+        <price>8650</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-pryanaya-karamel/</url>
         <categoryId>2</categoryId>
         <description>Роза вывернутая — 5 шт.
