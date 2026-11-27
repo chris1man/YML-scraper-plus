@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-27 05:34">
+<yml_catalog date="2026-11-27 11:32">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -108,21 +108,38 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6937.jpg</picture>
       </offer>
       <offer id="9" available="true">
-        <name>Сборный букет &quot;Ягода в снегу&quot;</name>
-        <price>4390</price>
-        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-yagoda-v-snegu/</url>
+        <name>Композиция-комплимент</name>
+        <price>2500</price>
+        <url>https://maki-tomsk.ru/kompozicii/cvety-v-sumochkah/kompoziciya-kompliment/</url>
         <categoryId>2</categoryId>
-        <description>Хризантема кустовая — 2 шт.
-Илекс — 2 шт.
-Гвоздика одиночная — 5 шт.
-Эустома Голландия — 2 шт.
-Оформление №1 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5254.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5268.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5255.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5260.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7565_5cza-3j.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7562_j37n-bp.jpg</picture>
       </offer>
       <offer id="10" available="true">
+        <name>Композиция-комплимент</name>
+        <price>3500</price>
+        <url>https://maki-tomsk.ru/kompozicii/cvety-v-shlyapnyh-korobkah/kompoziciya-kompliment/</url>
+        <categoryId>2</categoryId>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7505_c358-mc.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7508_7x1d-ij.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7515_4exz-fj.jpg</picture>
+      </offer>
+      <offer id="11" available="true">
+        <name>Сборный букет &quot;Уютная сказка&quot;</name>
+        <price>3580</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-uyutnaya-skazka/</url>
+        <categoryId>2</categoryId>
+        <description>Одиночная хризантема Боул — 2 шт.
+Хризантема кустовая (крашеная) — 2 шт.
+Гвоздика одиночная — 5 шт.
+Эвкалипт Парвифолия — 2 шт.
+Оформление № 2 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_6348.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_6358.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_6361.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_6356.jpg</picture>
+      </offer>
+      <offer id="12" available="true">
         <name>Букет из кустовых хризантем &quot;Ванильный аккорд&quot;</name>
         <price>3450</price>
         <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-kustovyh-hrizantemvanilnyy-akkord/</url>
@@ -135,21 +152,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_2794.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_2797.jpg</picture>
       </offer>
-      <offer id="11" available="true">
-        <name>Букет из пионовидных роз и эустом &quot;Кремовый прованс&quot;</name>
-        <price>5380</price>
-        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-pionovidnyh-roz-i-eustom-kremovyy-provans/</url>
-        <categoryId>2</categoryId>
-        <description>9 пионовидных роз — 1 шт.
-Эустома кружевная — 3 шт.
-Эвкалипт Синерия — 1 шт.
-Оформление №5 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4219.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4222.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4216.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4215.jpg</picture>
-      </offer>
-      <offer id="12" available="true">
+      <offer id="13" available="true">
         <name>Сборный букет &quot;Морская акварель&quot;</name>
         <price>4920</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-morskaya-akvarel/</url>
@@ -165,7 +168,33 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4457_rh9n-oa.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4462_h022-7k.jpg</picture>
       </offer>
-      <offer id="13" available="true">
+      <offer id="14" available="true">
+        <name>Букет из 11 терракотовых кустовых хризантем SANTINI</name>
+        <price>3250</price>
+        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-11-terrakotovyh-kustovyh-hrizantem-santini/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема Santini — 11 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5976.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5977.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5975.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_5978.jpg</picture>
+      </offer>
+      <offer id="15" available="true">
+        <name>Букет из пионовидных роз и эустом &quot;Кремовый прованс&quot;</name>
+        <price>5380</price>
+        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-pionovidnyh-roz-i-eustom-kremovyy-provans/</url>
+        <categoryId>2</categoryId>
+        <description>9 пионовидных роз — 1 шт.
+Эустома кружевная — 3 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №5 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4219.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4222.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4216.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4215.jpg</picture>
+      </offer>
+      <offer id="16" available="true">
         <name>Сборный букет &quot;Пряная карамель&quot;</name>
         <price>8830</price>
         <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-pryanaya-karamel/</url>
@@ -183,6 +212,101 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4454.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4455.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4450.jpg</picture>
+      </offer>
+      <offer id="17" available="true">
+        <name>Букет из 9 лавандовых кустовых хризантем SANTINI</name>
+        <price>2750</price>
+        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-9-lavandovyh-kustovyh-hrizantem-santini/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема Santini — 9 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/24/IMG_9977.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/24/IMG_9978.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/24/IMG_9974.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/24/IMG_9972.jpg</picture>
+      </offer>
+      <offer id="18" available="true">
+        <name>Букет из 7 персиковых кустовых роз с эвкалиптом</name>
+        <price>4530</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-kustovyh-roz/buket-iz-7-persikovyh-kustovyh-roz-s-evkaliptom/</url>
+        <categoryId>2</categoryId>
+        <description>Кустовая роза premium — 7 шт.
+Эвкалипт Синерия — 1 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_7414.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_7418__convert.io_.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_7413.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_7418.jpg</picture>
+      </offer>
+      <offer id="19" available="true">
+        <name>Букет из кустовых хризантем &quot;Утренняя нежность&quot;</name>
+        <price>2100</price>
+        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-kustovyh-hrizantem-utrennyaya-nezhnost/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема кустовая (крашеная) — 3 шт.
+Рускус крашеный — 1 шт.
+Оформление №11 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_2785.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_2788.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_2786.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_2790.jpg</picture>
+      </offer>
+      <offer id="20" available="true">
+        <name>Букет из одиночных хризантем и эустом &quot;Ночная загадка&quot;</name>
+        <price>4030</price>
+        <url>https://maki-tomsk.ru/bukety/duobukety/buket-iz-odinochnyh-hrizantem-i-eustom-nochnaya-zagadka/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема Бигуди — 3 шт.
+Эустома Голландия — 2 шт.
+Рускус крашеный — 2 шт.
+Фистация — 2 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_9355.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_9220.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_9354.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_9353.jpg</picture>
+      </offer>
+      <offer id="21" available="true">
+        <name>Букет из кустовых хризантем &quot;Морозный рубин&quot;</name>
+        <price>4130</price>
+        <url>https://maki-tomsk.ru/cvety/buket-iz-kustovyh-hrizantem/buket-iz-kustovyh-hrizantem-moroznyy-rubin/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема кустовая — 5 шт.
+Илекс — 2 шт.
+Оформление №12 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4476_8ydq-xq.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4475_bu92-to.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4472.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/31/IMG_4474_w8uy-uw.jpg</picture>
+      </offer>
+      <offer id="22" available="true">
+        <name>Сборный букет &quot;Ягода в снегу&quot;</name>
+        <price>4390</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-yagoda-v-snegu/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема кустовая — 2 шт.
+Илекс — 2 шт.
+Гвоздика одиночная — 5 шт.
+Эустома Голландия — 2 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5254.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5268.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5255.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/28/IMG_5260.jpg</picture>
+      </offer>
+      <offer id="23" available="true">
+        <name>Сборный букет &quot;Эфирная нежность&quot;</name>
+        <price>4220</price>
+        <url>https://maki-tomsk.ru/bukety/sbornye-bukety/sbornyy-buket-efirnaya-nezhnost/</url>
+        <categoryId>2</categoryId>
+        <description>Хризантема кустовая — 3 шт.
+Эустома кружевная — 3 шт.
+Альстромерия — 4 шт.
+Оформление №1 — 1 шт.</description>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/22/IMG_9009.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/22/IMG_9003.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/22/IMG_9008.jpg</picture>
+        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/22/IMG_9015.jpg</picture>
       </offer>
     </offers>
   </shop>
