@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2026-11-28 05:47">
+<yml_catalog date="2026-11-28 11:30">
   <shop>
     <name>My Shop</name>
     <company>My Company</company>
@@ -13,6 +13,16 @@
     </categories>
     <offers>
       <offer id="1" available="true">
+        <name>Букет из 9 роз с эвкалиптом</name>
+        <price>2250</price>
+        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-9-roz-s-evkaliptom/</url>
+        <categoryId>1</categoryId>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_8279_w076-am.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_8271_ez21-e2.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_8269_1xay-i7.jpg</picture>
+        <picture>https://maki-tomsk.ru/images/detailed/32/IMG_8273_pav5-ta.jpg</picture>
+      </offer>
+      <offer id="2" available="true">
         <name>Композиция-комплимент</name>
         <price>2500</price>
         <url>https://maki-tomsk.ru/kompozicii/cvety-v-sumochkah/kompoziciya-kompliment/</url>
@@ -20,7 +30,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7565_5cza-3j.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7562_j37n-bp.jpg</picture>
       </offer>
-      <offer id="2" available="true">
+      <offer id="3" available="true">
         <name>Сборная композиция в сумочке &quot;Уютный шарм&quot;</name>
         <price>2500</price>
         <url>https://maki-tomsk.ru/kompozicii/cvety-v-sumochkah/sbornaya-kompoziciya-v-sumochke-uyutnyy-sharm/</url>
@@ -39,7 +49,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7560.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7564.jpg</picture>
       </offer>
-      <offer id="3" available="true">
+      <offer id="4" available="true">
         <name>Сборная композиция в сумочке &quot;Нежный мотив&quot;</name>
         <price>2500</price>
         <url>https://maki-tomsk.ru/kompozicii/cvety-v-sumochkah/sbornaya-kompoziciya-v-sumochke-nezhnyy-motiv/</url>
@@ -58,21 +68,21 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7566.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_7569.jpg</picture>
       </offer>
-      <offer id="4" available="true">
+      <offer id="5" available="true">
         <name>Открытка &quot;Маме&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-mame-ru/</url>
         <categoryId>1</categoryId>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/2_j7uz-2f.png</picture>
       </offer>
-      <offer id="5" available="true">
+      <offer id="6" available="true">
         <name>Открытка &quot;Маме&quot;</name>
         <price>40</price>
         <url>https://maki-tomsk.ru/otkrytki/otkrytka-mame/</url>
         <categoryId>1</categoryId>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/1_5p1c-pe.png</picture>
       </offer>
-      <offer id="6" available="true">
+      <offer id="7" available="true">
         <name>Букет из 51 розы Be sweet 70 см</name>
         <price>14790</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-51-rozy-be-sweet-70-sm/</url>
@@ -83,7 +93,7 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9798.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_9796.jpg</picture>
       </offer>
-      <offer id="7" available="true">
+      <offer id="8" available="true">
         <name>Букет из 15 пионовидных роз Princess Crown в оформлении</name>
         <price>4150</price>
         <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-15-pionovidnyh-roz-princess-crown-v-oformlenii/</url>
@@ -94,18 +104,6 @@
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6883.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6880.jpg</picture>
         <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6886.jpg</picture>
-      </offer>
-      <offer id="8" available="true">
-        <name>Букет из 5 французских алых роз</name>
-        <price>2350</price>
-        <url>https://maki-tomsk.ru/cvety/bukety-iz-roz/buket-iz-5-francuzskih-alyh-roz/</url>
-        <categoryId>1</categoryId>
-        <description>Вывернутая роза — 5 шт.
-Оформление №11 — 1 шт.</description>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6934.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6936.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6933.jpg</picture>
-        <picture>https://cdn.maki-tomsk.ru/uploads/maki-tomsk.ru/detailed/32/IMG_6937.jpg</picture>
       </offer>
       <offer id="9" available="true">
         <name>Композиция-комплимент</name>
